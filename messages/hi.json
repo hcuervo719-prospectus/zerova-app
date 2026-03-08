@@ -1,0 +1,68 @@
+{
+  "common": { "siteName": "Zerova" },
+  "nav": {
+    "login": "Log In",
+    "signup": "Start Free Trial"
+  },
+  "hero": {
+    "badge": "Powered by Gottman Science",
+    "headline": "Build a relationship that",
+    "headlineAccent": "actually works.",
+    "subheadline": "Zerova is your personal Relational Intelligence assistant — grounded in 40 years of science, trained on your specific dynamic.",
+    "cta": "Start Free Trial",
+    "ctaSecondary": "See how it works",
+    "trial": "3-day free trial · No credit card required"
+  },
+  "modes": {
+    "title": "Three modes. One assistant.",
+    "subtitle": "Zerova detects what you need — or you can choose.",
+    "safeSpace": {
+      "title": "Safe Space",
+      "desc": "Process difficult emotions and conflicts in a space designed to make you feel genuinely heard before offering any guidance."
+    },
+    "coach": {
+      "title": "Coach",
+      "desc": "Learn and practice specific Gottman skills — Gentle Start-Up, accepting responsibility, turning toward — using your real situations."
+    },
+    "checkin": {
+      "title": "Daily Check-in",
+      "desc": "A two-minute pulse on your relationship. Builds a longitudinal picture of your dynamic over time."
+    }
+  },
+  "science": {
+    "title": "Not opinions. Science.",
+    "subtitle": "Every intervention is grounded in peer-reviewed relationship research.",
+    "stat1": "of couples report stronger relationships after consistent Gottman practice",
+    "stat2": "years of peer-reviewed research behind the methodology",
+    "stat3": "scientific frameworks: Gottman Method, EFT, CBCT"
+  },
+  "cta": {
+    "title": "Your relationship deserves this.",
+    "subtitle": "Most couples wait until things are critical. The best time to build relational intelligence is before you need it urgently.",
+    "button": "Start Free Trial",
+    "trial": "3 days free · Then $30/month · Cancel anytime"
+  },
+  "footer": {
+    "copyright": "© 2026 Zerova / VividShift. All rights reserved."
+  },
+  "signup": {
+    "subtitle": "Create your account",
+    "name": "First name",
+    "email": "Email",
+    "password": "Password",
+    "button": "Create Account",
+    "loading": "Creating account...",
+    "hasAccount": "Already have an account?",
+    "login": "Sign in",
+    "trial": "3-day free trial included · No credit card required"
+  },
+  "login": {
+    "subtitle": "Welcome back",
+    "email": "Email",
+    "password": "Password",
+    "button": "Sign In",
+    "loading": "Signing in...",
+    "noAccount": "Don't have an account?",
+    "signup": "Start free trial"
+  }
+}

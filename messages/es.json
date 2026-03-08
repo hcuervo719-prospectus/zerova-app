@@ -1,0 +1,68 @@
+{
+  "common": { "siteName": "Zerova" },
+  "nav": {
+    "login": "Iniciar sesión",
+    "signup": "Empezar gratis"
+  },
+  "hero": {
+    "badge": "Basado en la Ciencia Gottman",
+    "headline": "Construye una relación que",
+    "headlineAccent": "realmente funcione.",
+    "subheadline": "Zerova es tu asistente personal de Inteligencia Relacional — respaldado por 40 años de ciencia, entrenado en tu dinámica específica.",
+    "cta": "Comenzar prueba gratuita",
+    "ctaSecondary": "Cómo funciona",
+    "trial": "3 días gratis · Sin tarjeta de crédito"
+  },
+  "modes": {
+    "title": "Tres modos. Un asistente.",
+    "subtitle": "Zerova detecta lo que necesitas — o tú eliges.",
+    "safeSpace": {
+      "title": "Espacio Seguro",
+      "desc": "Procesa emociones difíciles y conflictos en un espacio diseñado para que te sientas genuinamente escuchado antes de recibir cualquier orientación."
+    },
+    "coach": {
+      "title": "Coach",
+      "desc": "Aprende y practica habilidades Gottman específicas — Inicio Suave, aceptar responsabilidad, acercarte — usando tus situaciones reales."
+    },
+    "checkin": {
+      "title": "Check-in Diario",
+      "desc": "Un pulso de dos minutos sobre tu relación. Construye una imagen longitudinal de tu dinámica con el tiempo."
+    }
+  },
+  "science": {
+    "title": "No opiniones. Ciencia.",
+    "subtitle": "Cada intervención está fundamentada en investigación de relaciones revisada por pares.",
+    "stat1": "de parejas reportan relaciones más fuertes con práctica Gottman consistente",
+    "stat2": "años de investigación revisada por pares detrás de la metodología",
+    "stat3": "marcos científicos: Método Gottman, TFE, TCCC"
+  },
+  "cta": {
+    "title": "Tu relación merece esto.",
+    "subtitle": "La mayoría de parejas espera hasta que las cosas están en crisis. El mejor momento para construir inteligencia relacional es antes de necesitarla urgentemente.",
+    "button": "Comenzar prueba gratuita",
+    "trial": "3 días gratis · Luego $30/mes · Cancela cuando quieras"
+  },
+  "footer": {
+    "copyright": "© 2026 Zerova / VividShift. Todos los derechos reservados."
+  },
+  "signup": {
+    "subtitle": "Crea tu cuenta",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "button": "Crear cuenta",
+    "loading": "Creando cuenta...",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "login": "Inicia sesión",
+    "trial": "Prueba de 3 días incluida · Sin tarjeta de crédito"
+  },
+  "login": {
+    "subtitle": "Bienvenido de vuelta",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "button": "Iniciar sesión",
+    "loading": "Entrando...",
+    "noAccount": "¿No tienes cuenta?",
+    "signup": "Comenzar prueba gratis"
+  }
+}
