@@ -113,12 +113,12 @@ export async function PATCH(request: NextRequest) {
         : relProfile.recent_emotions
 
       // Update dominant horsemen (add new ones detected)
-      const updatedHorsemen = [
-        ...new Set([
+      const updatedHorsemen = Array.from(
+        new Set([
           ...(relProfile.dominant_horsemen || []),
           ...(horsemenIdentified || []),
-        ]),
-      ]
+        ])
+      )
 
       // Update skills if worked
       const updatedSkills = { ...(relProfile.skills_in_development as Record<string, string> || {}) }
