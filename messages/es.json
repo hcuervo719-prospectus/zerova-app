@@ -1,5 +1,7 @@
 {
-  "common": { "siteName": "Zerova" },
+  "common": {
+    "siteName": "Zerova"
+  },
   "nav": {
     "login": "Iniciar sesión",
     "signup": "Empezar gratis"
@@ -54,7 +56,10 @@
     "loading": "Creando cuenta...",
     "hasAccount": "¿Ya tienes cuenta?",
     "login": "Inicia sesión",
-    "trial": "Prueba de 7 días incluida · Sin tarjeta de crédito"
+    "trial": "Prueba de 7 días incluida · Sin tarjeta de crédito",
+    "emailConfirmTitle": "Revisa tu correo",
+    "emailConfirmDesc": "Enviamos un enlace de confirmación a",
+    "emailConfirmNote": "Haz clic en el enlace del correo para activar tu cuenta."
   },
   "login": {
     "subtitle": "Bienvenido de vuelta",
@@ -108,5 +113,28 @@
       "button": "Comenzar mi camino →",
       "loading": "Configurando..."
     }
+  },
+  "dashboard": {
+    "defaultName": "ahí",
+    "signout": "Cerrar sesión",
+    "trialDays": "días",
+    "trialLeft": "restantes en tu prueba gratuita",
+    "subscribe": "Suscribirme",
+    "trialExpiredTitle": "Tu prueba ha terminado",
+    "trialExpiredDesc": "Suscríbete para continuar tu camino relacional.",
+    "subscribeButton": "Suscribirme por $30/mes",
+    "welcome": "Bienvenido de vuelta, {name}",
+    "subtitle": "¿Cómo están las cosas entre ustedes hoy?",
+    "streak": "Días seguidos",
+    "sessions": "Sesiones",
+    "checkins": "Check-ins",
+    "talkTitle": "Habla con Zerova",
+    "talkDesc": "Solo empieza a hablar — Zerova detecta lo que necesitas",
+    "modeSafeSpace": "Espacio Seguro",
+    "modeSafeSpaceDesc": "Procesa un momento difícil",
+    "modeCoach": "Coach",
+    "modeCoachDesc": "Aprende una habilidad específica",
+    "modeCheckin": "Check-in",
+    "modeCheckinDesc": "Pulso diario rápido"
   }
 }

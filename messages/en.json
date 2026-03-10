@@ -1,5 +1,7 @@
 {
-  "common": { "siteName": "Zerova" },
+  "common": {
+    "siteName": "Zerova"
+  },
   "nav": {
     "login": "Log In",
     "signup": "Start Free Trial"
@@ -54,7 +56,10 @@
     "loading": "Creating account...",
     "hasAccount": "Already have an account?",
     "login": "Sign in",
-    "trial": "7-day free trial included · No credit card required"
+    "trial": "7-day free trial included · No credit card required",
+    "emailConfirmTitle": "Check your email",
+    "emailConfirmDesc": "We sent a confirmation link to",
+    "emailConfirmNote": "Click the link in the email to activate your account."
   },
   "login": {
     "subtitle": "Welcome back",
@@ -108,5 +113,28 @@
       "button": "Start my journey →",
       "loading": "Setting up..."
     }
+  },
+  "dashboard": {
+    "defaultName": "there",
+    "signout": "Sign out",
+    "trialDays": "days",
+    "trialLeft": "left in your free trial",
+    "subscribe": "Subscribe",
+    "trialExpiredTitle": "Your trial has ended",
+    "trialExpiredDesc": "Subscribe to continue your relational journey.",
+    "subscribeButton": "Subscribe for $30/month",
+    "welcome": "Welcome back, {name}",
+    "subtitle": "How are things between you two today?",
+    "streak": "Day streak",
+    "sessions": "Sessions",
+    "checkins": "Check-ins",
+    "talkTitle": "Talk to Zerova",
+    "talkDesc": "Just start talking — Zerova detects what you need",
+    "modeSafeSpace": "Safe Space",
+    "modeSafeSpaceDesc": "Process a difficult moment",
+    "modeCoach": "Coach",
+    "modeCoachDesc": "Learn a specific skill",
+    "modeCheckin": "Check-in",
+    "modeCheckinDesc": "Quick daily pulse"
   }
 }
