@@ -2,20 +2,16 @@
 
 import { useState } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-
-const FRICTION_OPTIONS = [
-  'Communication', 'Trust', 'Intimacy', 'Finances',
-  'Parenting', 'Time together', 'Extended family', 'Life goals',
-]
+import { useTranslations } from 'next-intl'
 
 export default function OnboardingPage() {
+  const t = useTranslations('onboarding')
   const router = useRouter()
   const params = useParams()
   const locale = params.locale as string
 
   const [step, setStep] = useState(1)
   const [loading, setLoading] = useState(false)
-
   const [usageMode, setUsageMode] = useState<'solo' | 'couple' | ''>('')
   const [relationshipDuration, setRelationshipDuration] = useState('')
   const [relationshipStatus, setRelationshipStatus] = useState('')
@@ -41,9 +37,7 @@ export default function OnboardingPage() {
       <div className="w-full max-w-lg">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-teal-700">Zerova</h1>
-          <p className="mt-2 text-slate-500">
-            Help us personalize your experience
-          </p>
+          <p className="mt-2 text-slate-500">{t('subtitle')}</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-xl p-8">
@@ -59,14 +53,15 @@ export default function OnboardingPage() {
             ))}
           </div>
 
+          {/* STEP 1 */}
           {step === 1 && (
             <div className="space-y-4">
-              <h2 className="text-xl font-bold text-slate-900">How will you use Zerova?</h2>
-              <p className="text-slate-500 text-sm">This shapes how the assistant responds to you.</p>
+              <h2 className="text-xl font-bold text-slate-900">{t('step1.title')}</h2>
+              <p className="text-slate-500 text-sm">{t('step1.desc')}</p>
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  { value: 'solo', label: 'On my own', emoji: '🧍', desc: 'I want to work on myself and my relationship skills' },
-                  { value: 'couple', label: 'As a couple', emoji: '👫', desc: 'My partner and I will use it together' },
+                  { value: 'solo', label: t('step1.solo'), emoji: '🧍', desc: t('step1.soloDesc') },
+                  { value: 'couple', label: t('step1.couple'), emoji: '👫', desc: t('step1.coupleDesc') },
                 ].map(opt => (
                   <button
                     key={opt.value}
@@ -88,30 +83,27 @@ export default function OnboardingPage() {
                 onClick={() => setStep(2)}
                 className="w-full bg-teal-600 text-white font-semibold py-3 rounded-lg hover:bg-teal-700 transition disabled:opacity-40 mt-2"
               >
-                Continue →
+                {t('continue')}
               </button>
             </div>
           )}
 
+          {/* STEP 2 */}
           {step === 2 && (
             <div className="space-y-4">
-              <h2 className="text-xl font-bold text-slate-900">How long have you been together?</h2>
+              <h2 className="text-xl font-bold text-slate-900">{t('step2.title')}</h2>
               <div className="grid grid-cols-2 gap-3">
-                {[
-                  'Less than 1 year', '1–3 years',
-                  '3–7 years', '7–15 years',
-                  '15+ years', 'Not in a relationship yet',
-                ].map(opt => (
+                {(['opt1','opt2','opt3','opt4','opt5','opt6'] as const).map(key => (
                   <button
-                    key={opt}
-                    onClick={() => setRelationshipDuration(opt)}
+                    key={key}
+                    onClick={() => setRelationshipDuration(t(`step2.${key}`))}
                     className={`p-3 rounded-xl border-2 text-sm text-left transition ${
-                      relationshipDuration === opt
+                      relationshipDuration === t(`step2.${key}`)
                         ? 'border-teal-500 bg-teal-50 text-teal-700 font-medium'
                         : 'border-slate-200 text-slate-600 hover:border-teal-200'
                     }`}
                   >
-                    {opt}
+                    {t(`step2.${key}`)}
                   </button>
                 ))}
               </div>
@@ -120,19 +112,20 @@ export default function OnboardingPage() {
                 onClick={() => setStep(3)}
                 className="w-full bg-teal-600 text-white font-semibold py-3 rounded-lg hover:bg-teal-700 transition disabled:opacity-40"
               >
-                Continue →
+                {t('continue')}
               </button>
             </div>
           )}
 
+          {/* STEP 3 */}
           {step === 3 && (
             <div className="space-y-4">
-              <h2 className="text-xl font-bold text-slate-900">How would you describe things right now?</h2>
+              <h2 className="text-xl font-bold text-slate-900">{t('step3.title')}</h2>
               <div className="space-y-3">
                 {[
-                  { value: 'stable', label: '🌱 Stable', desc: 'Things are mostly good — I want to keep growing' },
-                  { value: 'tension', label: '⚡ Some tension', desc: 'We have recurring friction but we\'re managing' },
-                  { value: 'crisis', label: '🌊 In crisis', desc: 'Things are difficult and we need real help' },
+                  { value: 'stable', label: t('step3.stable'), desc: t('step3.stableDesc') },
+                  { value: 'tension', label: t('step3.tension'), desc: t('step3.tensionDesc') },
+                  { value: 'crisis', label: t('step3.crisis'), desc: t('step3.crisisDesc') },
                 ].map(opt => (
                   <button
                     key={opt.value}
@@ -153,27 +146,28 @@ export default function OnboardingPage() {
                 onClick={() => setStep(4)}
                 className="w-full bg-teal-600 text-white font-semibold py-3 rounded-lg hover:bg-teal-700 transition disabled:opacity-40"
               >
-                Continue →
+                {t('continue')}
               </button>
             </div>
           )}
 
+          {/* STEP 4 */}
           {step === 4 && (
             <div className="space-y-4">
-              <h2 className="text-xl font-bold text-slate-900">What's the main area you want to work on?</h2>
-              <p className="text-slate-500 text-sm">Choose the one that feels most relevant right now.</p>
+              <h2 className="text-xl font-bold text-slate-900">{t('step4.title')}</h2>
+              <p className="text-slate-500 text-sm">{t('step4.desc')}</p>
               <div className="grid grid-cols-2 gap-2">
-                {FRICTION_OPTIONS.map(opt => (
+                {(['opt1','opt2','opt3','opt4','opt5','opt6','opt7','opt8'] as const).map(key => (
                   <button
-                    key={opt}
-                    onClick={() => setPrimaryFrictionArea(opt)}
+                    key={key}
+                    onClick={() => setPrimaryFrictionArea(t(`step4.${key}`))}
                     className={`p-3 rounded-xl border-2 text-sm transition ${
-                      primaryFrictionArea === opt
+                      primaryFrictionArea === t(`step4.${key}`)
                         ? 'border-teal-500 bg-teal-50 text-teal-700 font-medium'
                         : 'border-slate-200 text-slate-600 hover:border-teal-200'
                     }`}
                   >
-                    {opt}
+                    {t(`step4.${key}`)}
                   </button>
                 ))}
               </div>
@@ -182,7 +176,7 @@ export default function OnboardingPage() {
                 onClick={handleFinish}
                 className="w-full bg-teal-600 text-white font-semibold py-3 rounded-lg hover:bg-teal-700 transition disabled:opacity-40"
               >
-                {loading ? 'Setting up...' : 'Start my journey →'}
+                {loading ? t('step4.loading') : t('step4.button')}
               </button>
             </div>
           )}
