@@ -136,5 +136,24 @@
     "modeCoachDesc": "Aprende una habilidad específica",
     "modeCheckin": "Check-in",
     "modeCheckinDesc": "Pulso diario rápido"
+  },
+  "subscribe": {
+    "title": "Continúa tu camino",
+    "subtitle": "Tu prueba ha terminado. Suscríbete para seguir construyendo.",
+    "badge": "Oferta de lanzamiento",
+    "perMonth": "por mes",
+    "offerNote": "$15/mes los primeros 3 meses, luego $30/mes",
+    "features": [
+      "Sesiones ilimitadas de Espacio Seguro",
+      "Modo Coach completo con seguimiento de habilidades",
+      "Check-ins diarios y sistema de racha",
+      "Perfil Relacional Acumulativo",
+      "Metodología científica Gottman",
+      "16 idiomas"
+    ],
+    "button": "Empezar por $15/mes",
+    "loading": "Abriendo checkout...",
+    "secure": "Pago seguro vía Paddle · Cancela cuando quieras",
+    "back": "Volver al dashboard"
   }
 }

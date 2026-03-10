@@ -136,5 +136,24 @@
     "modeCoachDesc": "Learn a specific skill",
     "modeCheckin": "Check-in",
     "modeCheckinDesc": "Quick daily pulse"
+  },
+  "subscribe": {
+    "title": "Continue your journey",
+    "subtitle": "Your trial has ended. Subscribe to keep building.",
+    "badge": "Launch offer",
+    "perMonth": "per month",
+    "offerNote": "$15/month for the first 3 months, then $30/month",
+    "features": [
+      "Unlimited Safe Space sessions",
+      "Full Coach mode with skill tracking",
+      "Daily check-ins and streak system",
+      "Cumulative Relational Profile",
+      "Science-based Gottman methodology",
+      "16 languages"
+    ],
+    "button": "Start for $15/month",
+    "loading": "Opening checkout...",
+    "secure": "Secure payment via Paddle · Cancel anytime",
+    "back": "Back to dashboard"
   }
 }
