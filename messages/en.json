@@ -11,7 +11,7 @@
     "subheadline": "Zerova is your personal Relational Intelligence assistant — grounded in 40 years of science, trained on your specific dynamic.",
     "cta": "Start Free Trial",
     "ctaSecondary": "See how it works",
-    "trial": "3-day free trial · No credit card required"
+    "trial": "7-day free trial · No credit card required"
   },
   "modes": {
     "title": "Three modes. One assistant.",
@@ -40,7 +40,7 @@
     "title": "Your relationship deserves this.",
     "subtitle": "Most couples wait until things are critical. The best time to build relational intelligence is before you need it urgently.",
     "button": "Start Free Trial",
-    "trial": "3 days free · Then $30/month · Cancel anytime"
+    "trial": "7 days free · Then $30/month · Cancel anytime"
   },
   "footer": {
     "copyright": "© 2026 Zerova / VividShift. All rights reserved."
@@ -54,7 +54,7 @@
     "loading": "Creating account...",
     "hasAccount": "Already have an account?",
     "login": "Sign in",
-    "trial": "3-day free trial included · No credit card required"
+    "trial": "7-day free trial included · No credit card required"
   },
   "login": {
     "subtitle": "Welcome back",
@@ -64,5 +64,49 @@
     "loading": "Signing in...",
     "noAccount": "Don't have an account?",
     "signup": "Start free trial"
+  },
+  "onboarding": {
+    "subtitle": "Help us personalize your experience",
+    "continue": "Continue →",
+    "step1": {
+      "title": "How will you use Zerova?",
+      "desc": "This shapes how the assistant responds to you.",
+      "solo": "On my own",
+      "soloDesc": "I want to work on myself and my relationship skills",
+      "couple": "As a couple",
+      "coupleDesc": "My partner and I will use it together"
+    },
+    "step2": {
+      "title": "How long have you been together?",
+      "opt1": "Less than 1 year",
+      "opt2": "1–3 years",
+      "opt3": "3–7 years",
+      "opt4": "7–15 years",
+      "opt5": "15+ years",
+      "opt6": "Not in a relationship yet"
+    },
+    "step3": {
+      "title": "How would you describe things right now?",
+      "stable": "🌱 Stable",
+      "stableDesc": "Things are mostly good — I want to keep growing",
+      "tension": "⚡ Some tension",
+      "tensionDesc": "We have recurring friction but we're managing",
+      "crisis": "🌊 In crisis",
+      "crisisDesc": "Things are difficult and we need real help"
+    },
+    "step4": {
+      "title": "What's the main area you want to work on?",
+      "desc": "Choose the one that feels most relevant right now.",
+      "opt1": "Communication",
+      "opt2": "Trust",
+      "opt3": "Intimacy",
+      "opt4": "Finances",
+      "opt5": "Parenting",
+      "opt6": "Time together",
+      "opt7": "Extended family",
+      "opt8": "Life goals",
+      "button": "Start my journey →",
+      "loading": "Setting up..."
+    }
   }
 }
