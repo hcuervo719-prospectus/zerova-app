@@ -1,18 +1,18 @@
 'use client'
 
 import { useState } from 'react'
-import { useRouter, useParams } from 'next/navigation'
+import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 
 export default function SignupPage() {
   const t = useTranslations()
-  const router = useRouter()
   const params = useParams()
   const locale = params.locale as string
 
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const [confirmedEmail, setConfirmedEmail] = useState<string | null>(null)
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
@@ -20,13 +20,14 @@ export default function SignupPage() {
     setLoading(true)
 
     const formData = new FormData(e.currentTarget)
+    const email = formData.get('email') as string
 
     try {
       const response = await fetch('/api/auth/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          email: formData.get('email'),
+          email,
           password: formData.get('password'),
           full_name: formData.get('full_name'),
           locale,
@@ -39,12 +40,33 @@ export default function SignupPage() {
         setError(data.error)
         setLoading(false)
       } else {
-        router.push(`/${locale}/onboarding`)
+        setConfirmedEmail(email)
       }
     } catch {
       setError('An unexpected error occurred')
       setLoading(false)
     }
+  }
+
+  // Estado: email enviado
+  if (confirmedEmail) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-teal-50 to-slate-100 px-4">
+        <div className="w-full max-w-md text-center">
+          <div className="text-6xl mb-6">📬</div>
+          <h1 className="text-2xl font-bold text-slate-900 mb-3">
+            {t('signup.emailConfirmTitle')}
+          </h1>
+          <p className="text-slate-500 mb-2">
+            {t('signup.emailConfirmDesc')}
+          </p>
+          <p className="text-teal-700 font-semibold mb-6">{confirmedEmail}</p>
+          <p className="text-slate-400 text-sm">
+            {t('signup.emailConfirmNote')}
+          </p>
+        </div>
+      </div>
+    )
   }
 
   return (
