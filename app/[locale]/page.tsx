@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useParams } from 'next/navigation'
 import { useTranslations } from 'next-intl'
 
@@ -14,7 +15,16 @@ export default function LandingPage() {
       {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur border-b border-slate-100">
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-          <span className="text-xl font-bold text-teal-700">Zerova</span>
+          <div className="flex items-center gap-2">
+            <Image
+              src="/images/icon.jpg"
+              alt="Zerova"
+              width={32}
+              height={32}
+              className="rounded-lg"
+            />
+            <span className="text-xl font-bold text-teal-700">Zerova</span>
+          </div>
           <div className="flex items-center gap-4">
             <Link
               href={`/${locale}/login`}
@@ -33,33 +43,63 @@ export default function LandingPage() {
       </nav>
 
       {/* Hero */}
-      <section className="pt-32 pb-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-sm font-medium text-teal-600 mb-4 uppercase tracking-wide">
-            {t('hero.badge')}
-          </p>
-          <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
-            {t('hero.headline')}
-            <span className="text-teal-600 block mt-2">{t('hero.headlineAccent')}</span>
-          </h1>
-          <p className="text-xl text-slate-500 mb-10 max-w-2xl mx-auto">
-            {t('hero.subheadline')}
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href={`/${locale}/signup`}
-              className="bg-teal-600 text-white text-lg font-semibold px-8 py-4 rounded-xl hover:bg-teal-700 transition shadow-lg shadow-teal-200"
-            >
-              {t('hero.cta')}
-            </Link>
-            <Link
-              href="#how"
-              className="border border-slate-200 text-slate-700 text-lg px-8 py-4 rounded-xl hover:bg-slate-50 transition"
-            >
-              {t('hero.ctaSecondary')}
-            </Link>
+      <section className="pt-24 pb-20 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center min-h-[80vh]">
+
+            {/* Left — Text */}
+            <div className="flex flex-col justify-center">
+              <p className="text-sm font-medium text-teal-600 mb-4 uppercase tracking-wide">
+                {t('hero.badge')}
+              </p>
+              <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
+                {t('hero.headline')}
+                <span className="text-teal-600 block mt-2">{t('hero.headlineAccent')}</span>
+              </h1>
+              <p className="text-xl text-slate-500 mb-10 max-w-lg">
+                {t('hero.subheadline')}
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href={`/${locale}/signup`}
+                  className="bg-teal-600 text-white text-lg font-semibold px-8 py-4 rounded-xl hover:bg-teal-700 transition shadow-lg shadow-teal-200 text-center"
+                >
+                  {t('hero.cta')}
+                </Link>
+                <Link
+                  href="#how"
+                  className="border border-slate-200 text-slate-700 text-lg px-8 py-4 rounded-xl hover:bg-slate-50 transition text-center"
+                >
+                  {t('hero.ctaSecondary')}
+                </Link>
+              </div>
+              <p className="mt-6 text-sm text-slate-400">{t('hero.trial')}</p>
+            </div>
+
+            {/* Right — Sophia */}
+            <div className="relative hidden md:block">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl">
+                <Image
+                  src="/images/hero-image.webp"
+                  alt="Zerova"
+                  width={600}
+                  height={700}
+                  className="w-full object-cover"
+                  priority
+                />
+                {/* Overlay card */}
+                <div className="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur rounded-2xl p-4 shadow-lg">
+                  <p className="text-sm font-semibold text-slate-900 mb-1">Zerova</p>
+                  <p className="text-xs text-slate-500">{t('hero.subheadline')}</p>
+                  <div className="flex items-center gap-2 mt-2">
+                    <div className="w-2 h-2 bg-teal-500 rounded-full animate-pulse"></div>
+                    <p className="text-xs text-teal-600 font-medium">Disponible 24/7</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
-          <p className="mt-6 text-sm text-slate-400">{t('hero.trial')}</p>
         </div>
       </section>
 
@@ -71,41 +111,20 @@ export default function LandingPage() {
           </h2>
           <p className="text-center text-slate-500 mb-12">{t('modes.subtitle')}</p>
           <div className="grid md:grid-cols-3 gap-6">
-            {/* Safe Space */}
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
-              <div className="w-12 h-12 bg-rose-50 rounded-xl flex items-center justify-center mb-4 text-2xl">
-                🌊
-              </div>
-              <h3 className="text-lg font-bold text-slate-900 mb-2">
-                {t('modes.safeSpace.title')}
-              </h3>
-              <p className="text-slate-500 text-sm leading-relaxed">
-                {t('modes.safeSpace.desc')}
-              </p>
+              <div className="w-12 h-12 bg-rose-50 rounded-xl flex items-center justify-center mb-4 text-2xl">🌊</div>
+              <h3 className="text-lg font-bold text-slate-900 mb-2">{t('modes.safeSpace.title')}</h3>
+              <p className="text-slate-500 text-sm leading-relaxed">{t('modes.safeSpace.desc')}</p>
             </div>
-            {/* Coach */}
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-teal-100 ring-2 ring-teal-500/20">
-              <div className="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center mb-4 text-2xl">
-                🧭
-              </div>
-              <h3 className="text-lg font-bold text-slate-900 mb-2">
-                {t('modes.coach.title')}
-              </h3>
-              <p className="text-slate-500 text-sm leading-relaxed">
-                {t('modes.coach.desc')}
-              </p>
+              <div className="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center mb-4 text-2xl">🧭</div>
+              <h3 className="text-lg font-bold text-slate-900 mb-2">{t('modes.coach.title')}</h3>
+              <p className="text-slate-500 text-sm leading-relaxed">{t('modes.coach.desc')}</p>
             </div>
-            {/* Check-in */}
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
-              <div className="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center mb-4 text-2xl">
-                ✨
-              </div>
-              <h3 className="text-lg font-bold text-slate-900 mb-2">
-                {t('modes.checkin.title')}
-              </h3>
-              <p className="text-slate-500 text-sm leading-relaxed">
-                {t('modes.checkin.desc')}
-              </p>
+              <div className="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center mb-4 text-2xl">✨</div>
+              <h3 className="text-lg font-bold text-slate-900 mb-2">{t('modes.checkin.title')}</h3>
+              <p className="text-slate-500 text-sm leading-relaxed">{t('modes.checkin.desc')}</p>
             </div>
           </div>
         </div>
