@@ -90,7 +90,7 @@ export default function LandingPage() {
                 {/* Overlay card */}
                 <div className="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur rounded-2xl p-4 shadow-lg">
                   <p className="text-sm font-semibold text-slate-900 mb-1">Zerova</p>
-                  <p className="text-xs text-slate-500">{t('hero.subheadline')}</p>
+                  <p className="text-xs text-slate-500">{t('hero.cardDesc')}</p>
                   <div className="flex items-center gap-2 mt-2">
                     <div className="w-2 h-2 bg-teal-500 rounded-full animate-pulse"></div>
                     <p className="text-xs text-teal-600 font-medium">Disponible 24/7</p>
