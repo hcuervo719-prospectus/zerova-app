@@ -156,5 +156,14 @@
     "loading": "Abriendo checkout...",
     "secure": "Pago seguro vía Paddle · Cancela cuando quieras",
     "back": "Volver al dashboard"
+  },
+  "chat": {
+  "back": "Volver",
+  "emptyState": "Solo empieza a hablar — Zerova está escuchando",
+  "placeholder": "¿Qué tienes en mente?",
+  "inputHint": "Enter para enviar · Shift+Enter para nueva línea",
+  "modeSafeSpace": "Espacio Seguro",
+  "modeCoach": "Coach",
+  "modeCheckin": "Check-in"
   }
 }
