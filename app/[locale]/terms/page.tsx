@@ -32,7 +32,7 @@ export default async function TermsPage({
 
               <section>
                 <h2 className="text-xl font-semibold text-slate-900 mb-3">1. Aceptación de términos</h2>
-                <p>Al usar Zerova, aceptas estos términos. Si no los aceptas, por favor no uses el servicio. Zerova es operado por VividShift (Henry Murillo) desde Colombia.</p>
+                <p>Al usar Zerova, aceptas estos términos. Si no los aceptas, por favor no uses el servicio. Zerova es operado por VividShift (Henry Cuervo) desde Colombia.</p>
               </section>
 
               <section>
@@ -108,7 +108,7 @@ export default async function TermsPage({
 
               <section>
                 <h2 className="text-xl font-semibold text-slate-900 mb-3">1. Acceptance of terms</h2>
-                <p>By using Zerova, you accept these terms. If you do not accept them, please do not use the service. Zerova is operated by VividShift (Henry Murillo) from Colombia.</p>
+                <p>By using Zerova, you accept these terms. If you do not accept them, please do not use the service. Zerova is operated by VividShift (Henry Cuervo) from Colombia.</p>
               </section>
 
               <section>
