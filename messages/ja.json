@@ -1,68 +1,160 @@
 {
-  "common": { "siteName": "Zerova" },
+  "common": {
+    "siteName": "Zerova"
+  },
   "nav": {
-    "login": "Log In",
-    "signup": "Start Free Trial"
+    "login": "ログイン",
+    "signup": "無料で始める"
   },
   "hero": {
-    "badge": "Powered by Gottman Science",
-    "headline": "Build a relationship that",
-    "headlineAccent": "actually works.",
-    "subheadline": "Zerova is your personal Relational Intelligence assistant — grounded in 40 years of science, trained on your specific dynamic.",
-    "cta": "Start Free Trial",
-    "ctaSecondary": "See how it works",
-    "trial": "3-day free trial · No credit card required"
+    "badge": "ゴットマン科学に基づく",
+    "headline": "本当に機能する",
+    "headlineAccent": "関係を築こう。",
+    "subheadline": "Zerovaはあなたの個人的な関係知性アシスタントです — 40年の科学に基づき、あなた特有のダイナミクスに合わせて訓練されています。",
+    "cardDesc": "あなたの関係ガイド、いつでも利用可能。",
+    "cta": "無料トライアルを開始",
+    "ctaSecondary": "使い方を見る",
+    "trial": "7日間無料 · クレジットカード不要"
   },
   "modes": {
-    "title": "Three modes. One assistant.",
-    "subtitle": "Zerova detects what you need — or you can choose.",
+    "title": "3つのモード。1つのアシスタント。",
+    "subtitle": "Zerovaが必要なものを検出します — または自分で選択できます。",
     "safeSpace": {
-      "title": "Safe Space",
-      "desc": "Process difficult emotions and conflicts in a space designed to make you feel genuinely heard before offering any guidance."
+      "title": "セーフスペース",
+      "desc": "アドバイスを提供する前に、本当に聞いてもらえると感じられるよう設計された空間で、難しい感情や葛藤を処理します。"
     },
     "coach": {
-      "title": "Coach",
-      "desc": "Learn and practice specific Gottman skills — Gentle Start-Up, accepting responsibility, turning toward — using your real situations."
+      "title": "コーチ",
+      "desc": "実際の状況を使って、特定のゴットマンスキルを学び練習します — 穏やかなスタート、責任の受け入れ、相手に向き合うこと。"
     },
     "checkin": {
-      "title": "Daily Check-in",
-      "desc": "A two-minute pulse on your relationship. Builds a longitudinal picture of your dynamic over time."
+      "title": "デイリーチェックイン",
+      "desc": "2分間の関係の状態確認。時間をかけてあなたのダイナミクスの縦断的な画像を構築します。"
     }
   },
   "science": {
-    "title": "Not opinions. Science.",
-    "subtitle": "Every intervention is grounded in peer-reviewed relationship research.",
-    "stat1": "of couples report stronger relationships after consistent Gottman practice",
-    "stat2": "years of peer-reviewed research behind the methodology",
-    "stat3": "scientific frameworks: Gottman Method, EFT, CBCT"
+    "title": "意見ではない。科学です。",
+    "subtitle": "すべての介入は、査読済みの関係研究に基づいています。",
+    "stat1": "のカップルが一貫したゴットマン実践でより強い関係を報告",
+    "stat2": "年の査読済み研究が方法論を支える",
+    "stat3": "科学的フレームワーク：ゴットマン法、EFT、CBCT"
   },
   "cta": {
-    "title": "Your relationship deserves this.",
-    "subtitle": "Most couples wait until things are critical. The best time to build relational intelligence is before you need it urgently.",
-    "button": "Start Free Trial",
-    "trial": "3 days free · Then $30/month · Cancel anytime"
+    "title": "あなたの関係はこれに値します。",
+    "subtitle": "ほとんどのカップルは状況が深刻になるまで待ちます。関係知性を構築する最良の時期は、緊急に必要とする前です。",
+    "button": "無料トライアルを開始",
+    "trial": "7日間無料 · その後$30/月 · いつでもキャンセル可能"
   },
   "footer": {
-    "copyright": "© 2026 Zerova / VividShift. All rights reserved."
+    "copyright": "© 2026 Zerova / VividShift. 全著作権所有。"
   },
   "signup": {
-    "subtitle": "Create your account",
-    "name": "First name",
-    "email": "Email",
-    "password": "Password",
-    "button": "Create Account",
-    "loading": "Creating account...",
-    "hasAccount": "Already have an account?",
-    "login": "Sign in",
-    "trial": "3-day free trial included · No credit card required"
+    "subtitle": "アカウントを作成",
+    "name": "名前",
+    "email": "メール",
+    "password": "パスワード",
+    "button": "アカウント作成",
+    "loading": "アカウント作成中...",
+    "hasAccount": "すでにアカウントをお持ちですか？",
+    "login": "ログイン",
+    "trial": "7日間のトライアル付き · クレジットカード不要",
+    "emailConfirmTitle": "メールを確認してください",
+    "emailConfirmDesc": "確認リンクを送信しました：",
+    "emailConfirmNote": "メール内のリンクをクリックしてアカウントを有効化してください。"
   },
   "login": {
-    "subtitle": "Welcome back",
-    "email": "Email",
-    "password": "Password",
-    "button": "Sign In",
-    "loading": "Signing in...",
-    "noAccount": "Don't have an account?",
-    "signup": "Start free trial"
+    "subtitle": "おかえりなさい",
+    "email": "メール",
+    "password": "パスワード",
+    "button": "ログイン",
+    "loading": "ログイン中...",
+    "noAccount": "アカウントをお持ちでないですか？",
+    "signup": "無料トライアルを開始"
+  },
+  "onboarding": {
+    "subtitle": "あなたの体験をカスタマイズするためにご協力ください",
+    "continue": "続ける →",
+    "step1": {
+      "title": "Zerovaをどのように使いますか？",
+      "desc": "これによりアシスタントの応答方法が決まります。",
+      "solo": "一人で",
+      "soloDesc": "自分自身と関係スキルに取り組みたい",
+      "couple": "カップルとして",
+      "coupleDesc": "パートナーと一緒に使います"
+    },
+    "step2": {
+      "title": "どのくらい一緒にいますか？",
+      "opt1": "1年未満",
+      "opt2": "1〜3年",
+      "opt3": "3〜7年",
+      "opt4": "7〜15年",
+      "opt5": "15年以上",
+      "opt6": "まだ関係にない"
+    },
+    "step3": {
+      "title": "今の状況をどう説明しますか？",
+      "stable": "🌱 安定",
+      "stableDesc": "ほとんど良好です — 成長し続けたい",
+      "tension": "⚡ 少し緊張",
+      "tensionDesc": "繰り返す摩擦があるが何とかやっている",
+      "crisis": "🌊 危機中",
+      "crisisDesc": "状況が難しく、本当の助けが必要"
+    },
+    "step4": {
+      "title": "取り組みたい主な分野は何ですか？",
+      "desc": "今最も関連性が高いと感じるものを選んでください。",
+      "opt1": "コミュニケーション",
+      "opt2": "信頼",
+      "opt3": "親密さ",
+      "opt4": "財務",
+      "opt5": "子育て",
+      "opt6": "一緒の時間",
+      "opt7": "大家族",
+      "opt8": "人生の目標",
+      "button": "旅を始める →",
+      "loading": "設定中..."
+    }
+  },
+  "dashboard": {
+    "defaultName": "そこ",
+    "signout": "ログアウト",
+    "trialDays": "日",
+    "trialLeft": "無料トライアルの残り",
+    "subscribe": "登録する",
+    "trialExpiredTitle": "トライアルが終了しました",
+    "trialExpiredDesc": "関係の旅を続けるために登録してください。",
+    "subscribeButton": "$30/月で登録",
+    "welcome": "おかえりなさい、{name}",
+    "subtitle": "今日、二人の間はいかがですか？",
+    "streak": "連続日数",
+    "sessions": "セッション",
+    "checkins": "チェックイン",
+    "talkTitle": "Zerovaと話す",
+    "talkDesc": "話し始めるだけで — Zerovaが必要なものを検出します",
+    "modeSafeSpace": "セーフスペース",
+    "modeSafeSpaceDesc": "難しい瞬間を処理する",
+    "modeCoach": "コーチ",
+    "modeCoachDesc": "特定のスキルを学ぶ",
+    "modeCheckin": "チェックイン",
+    "modeCheckinDesc": "クイック毎日パルス"
+  },
+  "subscribe": {
+    "title": "旅を続けましょう",
+    "subtitle": "トライアルが終了しました。構築を続けるために登録してください。",
+    "badge": "ローンチオファー",
+    "perMonth": "月",
+    "offerNote": "最初の3ヶ月は$15/月、その後$30/月",
+    "features": [
+      "無制限のセーフスペースセッション",
+      "スキル追跡付きフルコーチモード",
+      "毎日のチェックインとストリークシステム",
+      "累積関係プロファイル",
+      "科学的ゴットマン方法論",
+      "17言語"
+    ],
+    "button": "$15/月で始める",
+    "loading": "支払いを開いています...",
+    "secure": "Paddle経由の安全な支払い · いつでもキャンセル可能",
+    "back": "ダッシュボードに戻る"
   }
 }

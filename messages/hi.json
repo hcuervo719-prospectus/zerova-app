@@ -1,68 +1,160 @@
 {
-  "common": { "siteName": "Zerova" },
+  "common": {
+    "siteName": "Zerova"
+  },
   "nav": {
-    "login": "Log In",
-    "signup": "Start Free Trial"
+    "login": "लॉग इन करें",
+    "signup": "मुफ़्त शुरू करें"
   },
   "hero": {
-    "badge": "Powered by Gottman Science",
-    "headline": "Build a relationship that",
-    "headlineAccent": "actually works.",
-    "subheadline": "Zerova is your personal Relational Intelligence assistant — grounded in 40 years of science, trained on your specific dynamic.",
-    "cta": "Start Free Trial",
-    "ctaSecondary": "See how it works",
-    "trial": "3-day free trial · No credit card required"
+    "badge": "गॉटमैन विज्ञान पर आधारित",
+    "headline": "एक ऐसा रिश्ता बनाएं जो",
+    "headlineAccent": "वास्तव में काम करे।",
+    "subheadline": "Zerova आपका व्यक्तिगत संबंध बुद्धिमत्ता सहायक है — 40 साल के विज्ञान पर आधारित, आपकी विशिष्ट गतिशीलता पर प्रशिक्षित।",
+    "cardDesc": "आपका संबंध मार्गदर्शक, हमेशा उपलब्ध।",
+    "cta": "मुफ़्त परीक्षण शुरू करें",
+    "ctaSecondary": "यह कैसे काम करता है",
+    "trial": "7 दिन मुफ़्त · क्रेडिट कार्ड की ज़रूरत नहीं"
   },
   "modes": {
-    "title": "Three modes. One assistant.",
-    "subtitle": "Zerova detects what you need — or you can choose.",
+    "title": "तीन मोड। एक सहायक।",
+    "subtitle": "Zerova पता लगाता है कि आपको क्या चाहिए — या आप चुन सकते हैं।",
     "safeSpace": {
-      "title": "Safe Space",
-      "desc": "Process difficult emotions and conflicts in a space designed to make you feel genuinely heard before offering any guidance."
+      "title": "सुरक्षित स्थान",
+      "desc": "कोई भी मार्गदर्शन देने से पहले वास्तव में सुने जाने का एहसास दिलाने के लिए डिज़ाइन किए गए स्थान में कठिन भावनाओं और संघर्षों को संसाधित करें।"
     },
     "coach": {
-      "title": "Coach",
-      "desc": "Learn and practice specific Gottman skills — Gentle Start-Up, accepting responsibility, turning toward — using your real situations."
+      "title": "कोच",
+      "desc": "अपनी वास्तविक स्थितियों का उपयोग करके विशिष्ट गॉटमैन कौशल सीखें और अभ्यास करें — सौम्य शुरुआत, जिम्मेदारी स्वीकार करना, एक-दूसरे की ओर मुड़ना।"
     },
     "checkin": {
-      "title": "Daily Check-in",
-      "desc": "A two-minute pulse on your relationship. Builds a longitudinal picture of your dynamic over time."
+      "title": "दैनिक चेक-इन",
+      "desc": "आपके रिश्ते की दो मिनट की नब्ज। समय के साथ आपकी गतिशीलता की एक अनुदैर्ध्य तस्वीर बनाता है।"
     }
   },
   "science": {
-    "title": "Not opinions. Science.",
-    "subtitle": "Every intervention is grounded in peer-reviewed relationship research.",
-    "stat1": "of couples report stronger relationships after consistent Gottman practice",
-    "stat2": "years of peer-reviewed research behind the methodology",
-    "stat3": "scientific frameworks: Gottman Method, EFT, CBCT"
+    "title": "राय नहीं। विज्ञान।",
+    "subtitle": "प्रत्येक हस्तक्षेप सहकर्मी-समीक्षित संबंध अनुसंधान पर आधारित है।",
+    "stat1": "जोड़े लगातार गॉटमैन अभ्यास के साथ मजबूत रिश्ते रिपोर्ट करते हैं",
+    "stat2": "साल की सहकर्मी-समीक्षित शोध पद्धति के पीछे",
+    "stat3": "वैज्ञानिक ढांचे: गॉटमैन विधि, EFT, CBCT"
   },
   "cta": {
-    "title": "Your relationship deserves this.",
-    "subtitle": "Most couples wait until things are critical. The best time to build relational intelligence is before you need it urgently.",
-    "button": "Start Free Trial",
-    "trial": "3 days free · Then $30/month · Cancel anytime"
+    "title": "आपका रिश्ता इसका हकदार है।",
+    "subtitle": "अधिकांश जोड़े तब तक इंतजार करते हैं जब तक चीजें गंभीर न हो जाएं। संबंध बुद्धिमत्ता बनाने का सबसे अच्छा समय इसकी तत्काल जरूरत से पहले है।",
+    "button": "मुफ़्त परीक्षण शुरू करें",
+    "trial": "7 दिन मुफ़्त · फिर $30/माह · कभी भी रद्द करें"
   },
   "footer": {
-    "copyright": "© 2026 Zerova / VividShift. All rights reserved."
+    "copyright": "© 2026 Zerova / VividShift. सर्वाधिकार सुरक्षित।"
   },
   "signup": {
-    "subtitle": "Create your account",
-    "name": "First name",
-    "email": "Email",
-    "password": "Password",
-    "button": "Create Account",
-    "loading": "Creating account...",
-    "hasAccount": "Already have an account?",
-    "login": "Sign in",
-    "trial": "3-day free trial included · No credit card required"
+    "subtitle": "अपना खाता बनाएं",
+    "name": "नाम",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "button": "खाता बनाएं",
+    "loading": "खाता बनाया जा रहा है...",
+    "hasAccount": "पहले से खाता है?",
+    "login": "लॉग इन करें",
+    "trial": "7 दिन का परीक्षण शामिल · क्रेडिट कार्ड की ज़रूरत नहीं",
+    "emailConfirmTitle": "अपना ईमेल जांचें",
+    "emailConfirmDesc": "हमने एक पुष्टिकरण लिंक भेजा है:",
+    "emailConfirmNote": "अपना खाता सक्रिय करने के लिए ईमेल में लिंक पर क्लिक करें।"
   },
   "login": {
-    "subtitle": "Welcome back",
-    "email": "Email",
-    "password": "Password",
-    "button": "Sign In",
-    "loading": "Signing in...",
-    "noAccount": "Don't have an account?",
-    "signup": "Start free trial"
+    "subtitle": "वापस स्वागत है",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "button": "लॉग इन करें",
+    "loading": "लॉग इन हो रहा है...",
+    "noAccount": "खाता नहीं है?",
+    "signup": "मुफ़्त परीक्षण शुरू करें"
+  },
+  "onboarding": {
+    "subtitle": "अपना अनुभव व्यक्तिगत बनाने में हमारी मदद करें",
+    "continue": "जारी रखें →",
+    "step1": {
+      "title": "आप Zerova का उपयोग कैसे करेंगे?",
+      "desc": "यह निर्धारित करता है कि सहायक आपको कैसे जवाब देता है।",
+      "solo": "अकेले",
+      "soloDesc": "मैं खुद पर और अपने संबंध कौशल पर काम करना चाहता हूं",
+      "couple": "जोड़े के रूप में",
+      "coupleDesc": "मेरे साथी और मैं एक साथ उपयोग करेंगे"
+    },
+    "step2": {
+      "title": "आप कितने समय से साथ हैं?",
+      "opt1": "1 साल से कम",
+      "opt2": "1–3 साल",
+      "opt3": "3–7 साल",
+      "opt4": "7–15 साल",
+      "opt5": "15+ साल",
+      "opt6": "अभी रिश्ते में नहीं"
+    },
+    "step3": {
+      "title": "आप अभी चीजों का वर्णन कैसे करेंगे?",
+      "stable": "🌱 स्थिर",
+      "stableDesc": "चीजें ज्यादातर अच्छी हैं — मैं बढ़ना जारी रखना चाहता हूं",
+      "tension": "⚡ कुछ तनाव",
+      "tensionDesc": "हमारे बीच बार-बार घर्षण होता है लेकिन हम संभाल रहे हैं",
+      "crisis": "🌊 संकट में",
+      "crisisDesc": "चीजें कठिन हैं और हमें वास्तविक मदद चाहिए"
+    },
+    "step4": {
+      "title": "आप किस मुख्य क्षेत्र पर काम करना चाहते हैं?",
+      "desc": "वह चुनें जो अभी सबसे प्रासंगिक लगे।",
+      "opt1": "संचार",
+      "opt2": "विश्वास",
+      "opt3": "अंतरंगता",
+      "opt4": "वित्त",
+      "opt5": "पालन-पोषण",
+      "opt6": "एक साथ समय",
+      "opt7": "विस्तारित परिवार",
+      "opt8": "जीवन लक्ष्य",
+      "button": "मेरी यात्रा शुरू करें →",
+      "loading": "सेटअप हो रहा है..."
+    }
+  },
+  "dashboard": {
+    "defaultName": "वहां",
+    "signout": "लॉग आउट",
+    "trialDays": "दिन",
+    "trialLeft": "मुफ़्त परीक्षण में बचे",
+    "subscribe": "सदस्यता लें",
+    "trialExpiredTitle": "आपका परीक्षण समाप्त हो गया",
+    "trialExpiredDesc": "अपनी संबंध यात्रा जारी रखने के लिए सदस्यता लें।",
+    "subscribeButton": "$30/माह के लिए सदस्यता लें",
+    "welcome": "वापस स्वागत है, {name}",
+    "subtitle": "आज आप दोनों के बीच कैसी चल रही है?",
+    "streak": "लगातार दिन",
+    "sessions": "सत्र",
+    "checkins": "चेक-इन",
+    "talkTitle": "Zerova से बात करें",
+    "talkDesc": "बस बोलना शुरू करें — Zerova पता लगाएगा कि आपको क्या चाहिए",
+    "modeSafeSpace": "सुरक्षित स्थान",
+    "modeSafeSpaceDesc": "एक कठिन पल को संसाधित करें",
+    "modeCoach": "कोच",
+    "modeCoachDesc": "एक विशिष्ट कौशल सीखें",
+    "modeCheckin": "चेक-इन",
+    "modeCheckinDesc": "त्वरित दैनिक नब्ज"
+  },
+  "subscribe": {
+    "title": "अपनी यात्रा जारी रखें",
+    "subtitle": "आपका परीक्षण समाप्त हो गया। निर्माण जारी रखने के लिए सदस्यता लें।",
+    "badge": "लॉन्च ऑफर",
+    "perMonth": "प्रति माह",
+    "offerNote": "पहले 3 महीने $15/माह, फिर $30/माह",
+    "features": [
+      "असीमित सुरक्षित स्थान सत्र",
+      "कौशल ट्रैकिंग के साथ पूर्ण कोच मोड",
+      "दैनिक चेक-इन और स्ट्रीक सिस्टम",
+      "संचयी संबंध प्रोफ़ाइल",
+      "वैज्ञानिक गॉटमैन पद्धति",
+      "17 भाषाएं"
+    ],
+    "button": "$15/माह से शुरू करें",
+    "loading": "भुगतान खुल रहा है...",
+    "secure": "Paddle के माध्यम से सुरक्षित भुगतान · कभी भी रद्द करें",
+    "back": "डैशबोर्ड पर वापस जाएं"
   }
 }

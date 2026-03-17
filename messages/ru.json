@@ -1,68 +1,160 @@
 {
-  "common": { "siteName": "Zerova" },
+  "common": {
+    "siteName": "Zerova"
+  },
   "nav": {
-    "login": "Log In",
-    "signup": "Start Free Trial"
+    "login": "Войти",
+    "signup": "Начать бесплатно"
   },
   "hero": {
-    "badge": "Powered by Gottman Science",
-    "headline": "Build a relationship that",
-    "headlineAccent": "actually works.",
-    "subheadline": "Zerova is your personal Relational Intelligence assistant — grounded in 40 years of science, trained on your specific dynamic.",
-    "cta": "Start Free Trial",
-    "ctaSecondary": "See how it works",
-    "trial": "3-day free trial · No credit card required"
+    "badge": "Основано на науке Готтмана",
+    "headline": "Постройте отношения, которые",
+    "headlineAccent": "действительно работают.",
+    "subheadline": "Zerova — ваш личный ассистент реляционного интеллекта — основанный на 40 годах науки, обученный на вашей специфической динамике.",
+    "cardDesc": "Ваш реляционный гид, всегда доступен.",
+    "cta": "Начать бесплатный пробный период",
+    "ctaSecondary": "Как это работает",
+    "trial": "7 дней бесплатно · Кредитная карта не нужна"
   },
   "modes": {
-    "title": "Three modes. One assistant.",
-    "subtitle": "Zerova detects what you need — or you can choose.",
+    "title": "Три режима. Один ассистент.",
+    "subtitle": "Zerova определяет, что вам нужно — или вы можете выбрать сами.",
     "safeSpace": {
-      "title": "Safe Space",
-      "desc": "Process difficult emotions and conflicts in a space designed to make you feel genuinely heard before offering any guidance."
+      "title": "Безопасное Пространство",
+      "desc": "Обрабатывайте сложные эмоции и конфликты в пространстве, предназначенном для того, чтобы вы чувствовали себя по-настоящему услышанным, прежде чем получить какое-либо руководство."
     },
     "coach": {
-      "title": "Coach",
-      "desc": "Learn and practice specific Gottman skills — Gentle Start-Up, accepting responsibility, turning toward — using your real situations."
+      "title": "Коуч",
+      "desc": "Учитесь и практикуйте конкретные навыки Готтмана — Мягкий Старт, принятие ответственности, поворот друг к другу — используя ваши реальные ситуации."
     },
     "checkin": {
-      "title": "Daily Check-in",
-      "desc": "A two-minute pulse on your relationship. Builds a longitudinal picture of your dynamic over time."
+      "title": "Ежедневный чекин",
+      "desc": "Двухминутный пульс ваших отношений. Строит продольную картину вашей динамики со временем."
     }
   },
   "science": {
-    "title": "Not opinions. Science.",
-    "subtitle": "Every intervention is grounded in peer-reviewed relationship research.",
-    "stat1": "of couples report stronger relationships after consistent Gottman practice",
-    "stat2": "years of peer-reviewed research behind the methodology",
-    "stat3": "scientific frameworks: Gottman Method, EFT, CBCT"
+    "title": "Не мнения. Наука.",
+    "subtitle": "Каждое вмешательство основано на рецензируемых исследованиях отношений.",
+    "stat1": "пар сообщают о более крепких отношениях при последовательной практике Готтмана",
+    "stat2": "лет рецензируемых исследований за методологией",
+    "stat3": "научных рамки: Метод Готтмана, ЭФТ, КПКТ"
   },
   "cta": {
-    "title": "Your relationship deserves this.",
-    "subtitle": "Most couples wait until things are critical. The best time to build relational intelligence is before you need it urgently.",
-    "button": "Start Free Trial",
-    "trial": "3 days free · Then $30/month · Cancel anytime"
+    "title": "Ваши отношения заслуживают этого.",
+    "subtitle": "Большинство пар ждут, пока ситуация не станет критической. Лучшее время для развития реляционного интеллекта — до того, как он срочно понадобится.",
+    "button": "Начать бесплатный пробный период",
+    "trial": "7 дней бесплатно · Затем $30/месяц · Отмените в любое время"
   },
   "footer": {
-    "copyright": "© 2026 Zerova / VividShift. All rights reserved."
+    "copyright": "© 2026 Zerova / VividShift. Все права защищены."
   },
   "signup": {
-    "subtitle": "Create your account",
-    "name": "First name",
-    "email": "Email",
-    "password": "Password",
-    "button": "Create Account",
-    "loading": "Creating account...",
-    "hasAccount": "Already have an account?",
-    "login": "Sign in",
-    "trial": "3-day free trial included · No credit card required"
+    "subtitle": "Создайте аккаунт",
+    "name": "Имя",
+    "email": "Эл. почта",
+    "password": "Пароль",
+    "button": "Создать аккаунт",
+    "loading": "Создание аккаунта...",
+    "hasAccount": "Уже есть аккаунт?",
+    "login": "Войти",
+    "trial": "Пробный период 7 дней включён · Кредитная карта не нужна",
+    "emailConfirmTitle": "Проверьте вашу почту",
+    "emailConfirmDesc": "Мы отправили ссылку подтверждения на",
+    "emailConfirmNote": "Нажмите на ссылку в письме, чтобы активировать аккаунт."
   },
   "login": {
-    "subtitle": "Welcome back",
-    "email": "Email",
-    "password": "Password",
-    "button": "Sign In",
-    "loading": "Signing in...",
-    "noAccount": "Don't have an account?",
-    "signup": "Start free trial"
+    "subtitle": "С возвращением",
+    "email": "Эл. почта",
+    "password": "Пароль",
+    "button": "Войти",
+    "loading": "Вход...",
+    "noAccount": "Нет аккаунта?",
+    "signup": "Начать бесплатный пробный период"
+  },
+  "onboarding": {
+    "subtitle": "Помогите нам персонализировать ваш опыт",
+    "continue": "Продолжить →",
+    "step1": {
+      "title": "Как вы будете использовать Zerova?",
+      "desc": "Это определяет, как ассистент отвечает вам.",
+      "solo": "Самостоятельно",
+      "soloDesc": "Хочу работать над собой и своими реляционными навыками",
+      "couple": "Как пара",
+      "coupleDesc": "Мой партнёр и я будем использовать вместе"
+    },
+    "step2": {
+      "title": "Как долго вы вместе?",
+      "opt1": "Менее 1 года",
+      "opt2": "1–3 года",
+      "opt3": "3–7 лет",
+      "opt4": "7–15 лет",
+      "opt5": "15+ лет",
+      "opt6": "Пока не в отношениях"
+    },
+    "step3": {
+      "title": "Как бы вы описали ситуацию сейчас?",
+      "stable": "🌱 Стабильно",
+      "stableDesc": "Всё в основном хорошо — хочу продолжать расти",
+      "tension": "⚡ Некоторое напряжение",
+      "tensionDesc": "Есть повторяющиеся трения, но справляемся",
+      "crisis": "🌊 В кризисе",
+      "crisisDesc": "Ситуация сложная и нужна реальная помощь"
+    },
+    "step4": {
+      "title": "Над какой главной областью хотите работать?",
+      "desc": "Выберите ту, что кажется наиболее актуальной сейчас.",
+      "opt1": "Общение",
+      "opt2": "Доверие",
+      "opt3": "Близость",
+      "opt4": "Финансы",
+      "opt5": "Воспитание детей",
+      "opt6": "Время вместе",
+      "opt7": "Расширенная семья",
+      "opt8": "Жизненные цели",
+      "button": "Начать мой путь →",
+      "loading": "Настройка..."
+    }
+  },
+  "dashboard": {
+    "defaultName": "там",
+    "signout": "Выйти",
+    "trialDays": "дней",
+    "trialLeft": "осталось в бесплатном пробном периоде",
+    "subscribe": "Подписаться",
+    "trialExpiredTitle": "Ваш пробный период закончился",
+    "trialExpiredDesc": "Подпишитесь, чтобы продолжить реляционное путешествие.",
+    "subscribeButton": "Подписаться за $30/месяц",
+    "welcome": "С возвращением, {name}",
+    "subtitle": "Как сегодня дела между вами двумя?",
+    "streak": "Дней подряд",
+    "sessions": "Сессии",
+    "checkins": "Чекины",
+    "talkTitle": "Поговорить с Zerova",
+    "talkDesc": "Просто начните говорить — Zerova определит, что вам нужно",
+    "modeSafeSpace": "Безопасное Пространство",
+    "modeSafeSpaceDesc": "Обработать трудный момент",
+    "modeCoach": "Коуч",
+    "modeCoachDesc": "Изучить конкретный навык",
+    "modeCheckin": "Чекин",
+    "modeCheckinDesc": "Быстрый ежедневный пульс"
+  },
+  "subscribe": {
+    "title": "Продолжите путешествие",
+    "subtitle": "Пробный период закончился. Подпишитесь, чтобы продолжить.",
+    "badge": "Предложение запуска",
+    "perMonth": "в месяц",
+    "offerNote": "$15/месяц первые 3 месяца, затем $30/месяц",
+    "features": [
+      "Неограниченные сессии Безопасного Пространства",
+      "Полный режим Коуч с отслеживанием навыков",
+      "Ежедневные чекины и система серий",
+      "Накопительный Реляционный Профиль",
+      "Научная методология Готтмана",
+      "17 языков"
+    ],
+    "button": "Начать за $15/месяц",
+    "loading": "Открытие оплаты...",
+    "secure": "Безопасная оплата через Paddle · Отмените в любое время",
+    "back": "Вернуться на панель"
   }
 }
