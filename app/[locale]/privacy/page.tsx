@@ -32,7 +32,7 @@ export default async function PrivacyPage({
 
               <section>
                 <h2 className="text-xl font-semibold text-slate-900 mb-3">1. Quién somos</h2>
-                <p>Zerova es un producto de VividShift, operado por Henry Murillo como actividad individual desde Colombia. Puedes contactarnos en <a href="mailto:contact@zerova.app" className="text-teal-600">contact@zerova.app</a>.</p>
+                <p>Zerova es un producto de VividShift, operado por Henry Cuervo como actividad individual desde Colombia. Puedes contactarnos en <a href="mailto:contact@zerova.app" className="text-teal-600">contact@zerova.app</a>.</p>
               </section>
 
               <section>
@@ -111,7 +111,7 @@ export default async function PrivacyPage({
 
               <section>
                 <h2 className="text-xl font-semibold text-slate-900 mb-3">1. Who we are</h2>
-                <p>Zerova is a product of VividShift, operated by Henry Murillo as an individual from Colombia. You can contact us at <a href="mailto:contact@zerova.app" className="text-teal-600">contact@zerova.app</a>.</p>
+                <p>Zerova is a product of VividShift, operated by Henry Cuervo as an individual from Colombia. You can contact us at <a href="mailto:contact@zerova.app" className="text-teal-600">contact@zerova.app</a>.</p>
               </section>
 
               <section>
