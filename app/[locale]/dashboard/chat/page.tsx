@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { useRouter, useParams, useSearchParams } from 'next/navigation'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 
 interface Message {
@@ -11,13 +12,8 @@ interface Message {
   timestamp: string
 }
 
-const MODE_LABELS: Record<string, string> = {
-  safe_space: '🌊 Safe Space',
-  coach: '🧭 Coach',
-  checkin: '✨ Check-in',
-}
-
 export default function ChatPage() {
+  const t = useTranslations('chat')
   const router = useRouter()
   const params = useParams()
   const searchParams = useSearchParams()
@@ -31,12 +27,16 @@ export default function ChatPage() {
   const [detectedMode, setDetectedMode] = useState<string | null>(forcedMode)
   const bottomRef = useRef<HTMLDivElement>(null)
 
-  // Auto-scroll to bottom
+  const MODE_LABELS: Record<string, string> = {
+    safe_space: `🌊 ${t('modeSafeSpace')}`,
+    coach: `🧭 ${t('modeCoach')}`,
+    checkin: `✨ ${t('modeCheckin')}`,
+  }
+
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' })
   }, [messages])
 
-  // Create session on mount
   useEffect(() => {
     async function createSession() {
       const mode = forcedMode || 'checkin'
@@ -115,7 +115,7 @@ export default function ChatPage() {
       {/* Header */}
       <div className="bg-white border-b border-slate-100 px-4 h-14 flex items-center justify-between flex-shrink-0">
         <Link href={`/${locale}/dashboard`} className="text-slate-400 hover:text-slate-600 text-sm">
-          ← Back
+          ← {t('back')}
         </Link>
         <div className="flex items-center gap-2">
           <span className="text-sm font-medium text-slate-700">Zerova</span>
@@ -133,7 +133,7 @@ export default function ChatPage() {
         {messages.length === 0 && (
           <div className="text-center py-16 text-slate-400">
             <p className="text-2xl mb-2">💬</p>
-            <p className="text-sm">Just start talking — Zerova is listening</p>
+            <p className="text-sm">{t('emptyState')}</p>
           </div>
         )}
 
@@ -178,7 +178,7 @@ export default function ChatPage() {
             value={input}
             onChange={e => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder="What's on your mind?"
+            placeholder={t('placeholder')}
             rows={1}
             className="flex-1 resize-none border border-slate-200 rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none max-h-32"
             style={{ minHeight: '48px' }}
@@ -193,7 +193,7 @@ export default function ChatPage() {
             </svg>
           </button>
         </div>
-        <p className="text-center text-xs text-slate-300 mt-2">Enter to send · Shift+Enter for new line</p>
+        <p className="text-center text-xs text-slate-300 mt-2">{t('inputHint')}</p>
       </div>
     </div>
   )
