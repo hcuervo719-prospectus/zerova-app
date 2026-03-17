@@ -1,68 +1,160 @@
 {
-  "common": { "siteName": "Zerova" },
+  "common": {
+    "siteName": "Zerova"
+  },
   "nav": {
-    "login": "Log In",
-    "signup": "Start Free Trial"
+    "login": "Masuk",
+    "signup": "Mulai Gratis"
   },
   "hero": {
-    "badge": "Powered by Gottman Science",
-    "headline": "Build a relationship that",
-    "headlineAccent": "actually works.",
-    "subheadline": "Zerova is your personal Relational Intelligence assistant — grounded in 40 years of science, trained on your specific dynamic.",
-    "cta": "Start Free Trial",
-    "ctaSecondary": "See how it works",
-    "trial": "3-day free trial · No credit card required"
+    "badge": "Berdasarkan Ilmu Gottman",
+    "headline": "Bangun hubungan yang",
+    "headlineAccent": "benar-benar berhasil.",
+    "subheadline": "Zerova adalah asisten Kecerdasan Relasional pribadi Anda — berdasarkan 40 tahun ilmu pengetahuan, dilatih pada dinamika spesifik Anda.",
+    "cardDesc": "Panduan relasional Anda, selalu tersedia.",
+    "cta": "Mulai uji coba gratis",
+    "ctaSecondary": "Cara kerjanya",
+    "trial": "7 hari gratis · Tidak perlu kartu kredit"
   },
   "modes": {
-    "title": "Three modes. One assistant.",
-    "subtitle": "Zerova detects what you need — or you can choose.",
+    "title": "Tiga mode. Satu asisten.",
+    "subtitle": "Zerova mendeteksi apa yang Anda butuhkan — atau Anda bisa memilih.",
     "safeSpace": {
-      "title": "Safe Space",
-      "desc": "Process difficult emotions and conflicts in a space designed to make you feel genuinely heard before offering any guidance."
+      "title": "Ruang Aman",
+      "desc": "Proses emosi sulit dan konflik di ruang yang dirancang agar Anda merasa benar-benar didengar sebelum menawarkan panduan apapun."
     },
     "coach": {
-      "title": "Coach",
-      "desc": "Learn and practice specific Gottman skills — Gentle Start-Up, accepting responsibility, turning toward — using your real situations."
+      "title": "Pelatih",
+      "desc": "Pelajari dan praktikkan keterampilan Gottman spesifik — Awal yang Lembut, menerima tanggung jawab, berpaling satu sama lain — menggunakan situasi nyata Anda."
     },
     "checkin": {
-      "title": "Daily Check-in",
-      "desc": "A two-minute pulse on your relationship. Builds a longitudinal picture of your dynamic over time."
+      "title": "Check-in Harian",
+      "desc": "Denyut dua menit dari hubungan Anda. Membangun gambaran longitudinal dinamika Anda dari waktu ke waktu."
     }
   },
   "science": {
-    "title": "Not opinions. Science.",
-    "subtitle": "Every intervention is grounded in peer-reviewed relationship research.",
-    "stat1": "of couples report stronger relationships after consistent Gottman practice",
-    "stat2": "years of peer-reviewed research behind the methodology",
-    "stat3": "scientific frameworks: Gottman Method, EFT, CBCT"
+    "title": "Bukan opini. Ilmu pengetahuan.",
+    "subtitle": "Setiap intervensi didasarkan pada penelitian hubungan yang ditinjau sejawat.",
+    "stat1": "pasangan melaporkan hubungan yang lebih kuat dengan praktik Gottman yang konsisten",
+    "stat2": "tahun penelitian yang ditinjau sejawat di balik metodologi",
+    "stat3": "kerangka ilmiah: Metode Gottman, EFT, CBCT"
   },
   "cta": {
-    "title": "Your relationship deserves this.",
-    "subtitle": "Most couples wait until things are critical. The best time to build relational intelligence is before you need it urgently.",
-    "button": "Start Free Trial",
-    "trial": "3 days free · Then $30/month · Cancel anytime"
+    "title": "Hubungan Anda layak mendapatkan ini.",
+    "subtitle": "Kebanyakan pasangan menunggu sampai keadaan menjadi kritis. Waktu terbaik untuk membangun kecerdasan relasional adalah sebelum Anda sangat membutuhkannya.",
+    "button": "Mulai uji coba gratis",
+    "trial": "7 hari gratis · Lalu $30/bulan · Batalkan kapan saja"
   },
   "footer": {
-    "copyright": "© 2026 Zerova / VividShift. All rights reserved."
+    "copyright": "© 2026 Zerova / VividShift. Semua hak dilindungi."
   },
   "signup": {
-    "subtitle": "Create your account",
-    "name": "First name",
+    "subtitle": "Buat akun Anda",
+    "name": "Nama depan",
     "email": "Email",
-    "password": "Password",
-    "button": "Create Account",
-    "loading": "Creating account...",
-    "hasAccount": "Already have an account?",
-    "login": "Sign in",
-    "trial": "3-day free trial included · No credit card required"
+    "password": "Kata sandi",
+    "button": "Buat akun",
+    "loading": "Membuat akun...",
+    "hasAccount": "Sudah punya akun?",
+    "login": "Masuk",
+    "trial": "Uji coba 7 hari termasuk · Tidak perlu kartu kredit",
+    "emailConfirmTitle": "Periksa email Anda",
+    "emailConfirmDesc": "Kami mengirim tautan konfirmasi ke",
+    "emailConfirmNote": "Klik tautan di email untuk mengaktifkan akun Anda."
   },
   "login": {
-    "subtitle": "Welcome back",
+    "subtitle": "Selamat datang kembali",
     "email": "Email",
-    "password": "Password",
-    "button": "Sign In",
-    "loading": "Signing in...",
-    "noAccount": "Don't have an account?",
-    "signup": "Start free trial"
+    "password": "Kata sandi",
+    "button": "Masuk",
+    "loading": "Masuk...",
+    "noAccount": "Belum punya akun?",
+    "signup": "Mulai uji coba gratis"
+  },
+  "onboarding": {
+    "subtitle": "Bantu kami mempersonalisasi pengalaman Anda",
+    "continue": "Lanjutkan →",
+    "step1": {
+      "title": "Bagaimana Anda akan menggunakan Zerova?",
+      "desc": "Ini menentukan bagaimana asisten merespons Anda.",
+      "solo": "Sendiri",
+      "soloDesc": "Saya ingin mengerjakan diri sendiri dan keterampilan relasional saya",
+      "couple": "Sebagai pasangan",
+      "coupleDesc": "Pasangan dan saya akan menggunakannya bersama"
+    },
+    "step2": {
+      "title": "Sudah berapa lama bersama?",
+      "opt1": "Kurang dari 1 tahun",
+      "opt2": "1–3 tahun",
+      "opt3": "3–7 tahun",
+      "opt4": "7–15 tahun",
+      "opt5": "15+ tahun",
+      "opt6": "Belum dalam hubungan"
+    },
+    "step3": {
+      "title": "Bagaimana Anda menggambarkan keadaan saat ini?",
+      "stable": "🌱 Stabil",
+      "stableDesc": "Semuanya sebagian besar baik — saya ingin terus berkembang",
+      "tension": "⚡ Ada ketegangan",
+      "tensionDesc": "Kami memiliki gesekan berulang tapi masih bisa dikelola",
+      "crisis": "🌊 Dalam krisis",
+      "crisisDesc": "Keadaan sulit dan kami butuh bantuan nyata"
+    },
+    "step4": {
+      "title": "Area utama apa yang ingin Anda kerjakan?",
+      "desc": "Pilih yang paling relevan saat ini.",
+      "opt1": "Komunikasi",
+      "opt2": "Kepercayaan",
+      "opt3": "Keintiman",
+      "opt4": "Keuangan",
+      "opt5": "Pengasuhan",
+      "opt6": "Waktu bersama",
+      "opt7": "Keluarga besar",
+      "opt8": "Tujuan hidup",
+      "button": "Mulai perjalanan saya →",
+      "loading": "Menyiapkan..."
+    }
+  },
+  "dashboard": {
+    "defaultName": "di sana",
+    "signout": "Keluar",
+    "trialDays": "hari",
+    "trialLeft": "tersisa dalam uji coba gratis Anda",
+    "subscribe": "Berlangganan",
+    "trialExpiredTitle": "Uji coba Anda telah berakhir",
+    "trialExpiredDesc": "Berlangganan untuk melanjutkan perjalanan relasional Anda.",
+    "subscribeButton": "Berlangganan seharga $30/bulan",
+    "welcome": "Selamat datang kembali, {name}",
+    "subtitle": "Bagaimana keadaan antara kalian berdua hari ini?",
+    "streak": "Hari berturut-turut",
+    "sessions": "Sesi",
+    "checkins": "Check-in",
+    "talkTitle": "Bicara dengan Zerova",
+    "talkDesc": "Mulailah bicara — Zerova mendeteksi apa yang Anda butuhkan",
+    "modeSafeSpace": "Ruang Aman",
+    "modeSafeSpaceDesc": "Proses momen yang sulit",
+    "modeCoach": "Pelatih",
+    "modeCoachDesc": "Pelajari keterampilan tertentu",
+    "modeCheckin": "Check-in",
+    "modeCheckinDesc": "Denyut harian cepat"
+  },
+  "subscribe": {
+    "title": "Lanjutkan perjalanan Anda",
+    "subtitle": "Uji coba Anda telah berakhir. Berlangganan untuk terus membangun.",
+    "badge": "Penawaran peluncuran",
+    "perMonth": "per bulan",
+    "offerNote": "$15/bulan untuk 3 bulan pertama, lalu $30/bulan",
+    "features": [
+      "Sesi Ruang Aman tanpa batas",
+      "Mode Pelatih lengkap dengan pelacakan keterampilan",
+      "Check-in harian dan sistem streak",
+      "Profil Relasional Kumulatif",
+      "Metodologi Gottman ilmiah",
+      "17 bahasa"
+    ],
+    "button": "Mulai seharga $15/bulan",
+    "loading": "Membuka pembayaran...",
+    "secure": "Pembayaran aman melalui Paddle · Batalkan kapan saja",
+    "back": "Kembali ke dasbor"
   }
 }
