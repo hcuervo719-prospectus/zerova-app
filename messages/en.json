@@ -157,4 +157,13 @@
     "secure": "Secure payment via Paddle · Cancel anytime",
     "back": "Back to dashboard"
   }
+  "chat": {
+  "back": "Back",
+  "emptyState": "Just start talking — Zerova is listening",
+  "placeholder": "What's on your mind?",
+  "inputHint": "Enter to send · Shift+Enter for new line",
+  "modeSafeSpace": "Safe Space",
+  "modeCoach": "Coach",
+  "modeCheckin": "Check-in"
+}
 }
