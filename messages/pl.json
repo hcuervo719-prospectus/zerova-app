@@ -1,68 +1,160 @@
 {
-  "common": { "siteName": "Zerova" },
+  "common": {
+    "siteName": "Zerova"
+  },
   "nav": {
-    "login": "Log In",
-    "signup": "Start Free Trial"
+    "login": "Zaloguj się",
+    "signup": "Zacznij za darmo"
   },
   "hero": {
-    "badge": "Powered by Gottman Science",
-    "headline": "Build a relationship that",
-    "headlineAccent": "actually works.",
-    "subheadline": "Zerova is your personal Relational Intelligence assistant — grounded in 40 years of science, trained on your specific dynamic.",
-    "cta": "Start Free Trial",
-    "ctaSecondary": "See how it works",
-    "trial": "3-day free trial · No credit card required"
+    "badge": "Oparty na nauce Gottmana",
+    "headline": "Zbuduj związek, który",
+    "headlineAccent": "naprawdę działa.",
+    "subheadline": "Zerova to Twój osobisty asystent Inteligencji Relacyjnej — oparty na 40 latach nauki, wytrenowany na Twojej specyficznej dynamice.",
+    "cardDesc": "Twój przewodnik relacyjny, zawsze dostępny.",
+    "cta": "Rozpocznij bezpłatny okres próbny",
+    "ctaSecondary": "Jak to działa",
+    "trial": "7 dni za darmo · Karta kredytowa nie jest wymagana"
   },
   "modes": {
-    "title": "Three modes. One assistant.",
-    "subtitle": "Zerova detects what you need — or you can choose.",
+    "title": "Trzy tryby. Jeden asystent.",
+    "subtitle": "Zerova wykrywa, czego potrzebujesz — lub możesz wybrać sam.",
     "safeSpace": {
-      "title": "Safe Space",
-      "desc": "Process difficult emotions and conflicts in a space designed to make you feel genuinely heard before offering any guidance."
+      "title": "Bezpieczna Przestrzeń",
+      "desc": "Przetwarzaj trudne emocje i konflikty w przestrzeni zaprojektowanej tak, abyś czuł się naprawdę wysłuchany przed udzieleniem jakichkolwiek wskazówek."
     },
     "coach": {
       "title": "Coach",
-      "desc": "Learn and practice specific Gottman skills — Gentle Start-Up, accepting responsibility, turning toward — using your real situations."
+      "desc": "Ucz się i ćwicz specyficzne umiejętności Gottmana — Łagodny Start, przyjmowanie odpowiedzialności, zwracanie się ku sobie — używając swoich prawdziwych sytuacji."
     },
     "checkin": {
-      "title": "Daily Check-in",
-      "desc": "A two-minute pulse on your relationship. Builds a longitudinal picture of your dynamic over time."
+      "title": "Codzienny Check-in",
+      "desc": "Dwuminutowy puls Twojego związku. Buduje podłużny obraz Twojej dynamiki w czasie."
     }
   },
   "science": {
-    "title": "Not opinions. Science.",
-    "subtitle": "Every intervention is grounded in peer-reviewed relationship research.",
-    "stat1": "of couples report stronger relationships after consistent Gottman practice",
-    "stat2": "years of peer-reviewed research behind the methodology",
-    "stat3": "scientific frameworks: Gottman Method, EFT, CBCT"
+    "title": "Nie opinie. Nauka.",
+    "subtitle": "Każda interwencja opiera się na recenzowanych badaniach relacyjnych.",
+    "stat1": "par zgłasza silniejsze związki przy konsekwentnej praktyce Gottmana",
+    "stat2": "lat recenzowanych badań za metodologią",
+    "stat3": "ramy naukowe: Metoda Gottmana, EFT, CBCT"
   },
   "cta": {
-    "title": "Your relationship deserves this.",
-    "subtitle": "Most couples wait until things are critical. The best time to build relational intelligence is before you need it urgently.",
-    "button": "Start Free Trial",
-    "trial": "3 days free · Then $30/month · Cancel anytime"
+    "title": "Twój związek na to zasługuje.",
+    "subtitle": "Większość par czeka, aż sprawy staną się krytyczne. Najlepszy czas na budowanie inteligencji relacyjnej jest przed pilną potrzebą.",
+    "button": "Rozpocznij bezpłatny okres próbny",
+    "trial": "7 dni za darmo · Potem 30$/miesiąc · Anuluj w dowolnym momencie"
   },
   "footer": {
-    "copyright": "© 2026 Zerova / VividShift. All rights reserved."
+    "copyright": "© 2026 Zerova / VividShift. Wszelkie prawa zastrzeżone."
   },
   "signup": {
-    "subtitle": "Create your account",
-    "name": "First name",
-    "email": "Email",
-    "password": "Password",
-    "button": "Create Account",
-    "loading": "Creating account...",
-    "hasAccount": "Already have an account?",
-    "login": "Sign in",
-    "trial": "3-day free trial included · No credit card required"
+    "subtitle": "Utwórz swoje konto",
+    "name": "Imię",
+    "email": "E-mail",
+    "password": "Hasło",
+    "button": "Utwórz konto",
+    "loading": "Tworzenie konta...",
+    "hasAccount": "Masz już konto?",
+    "login": "Zaloguj się",
+    "trial": "7-dniowy okres próbny w zestawie · Karta kredytowa nie jest wymagana",
+    "emailConfirmTitle": "Sprawdź swoją pocztę",
+    "emailConfirmDesc": "Wysłaliśmy link potwierdzający na",
+    "emailConfirmNote": "Kliknij link w e-mailu, aby aktywować swoje konto."
   },
   "login": {
-    "subtitle": "Welcome back",
-    "email": "Email",
-    "password": "Password",
-    "button": "Sign In",
-    "loading": "Signing in...",
-    "noAccount": "Don't have an account?",
-    "signup": "Start free trial"
+    "subtitle": "Witaj z powrotem",
+    "email": "E-mail",
+    "password": "Hasło",
+    "button": "Zaloguj się",
+    "loading": "Logowanie...",
+    "noAccount": "Nie masz konta?",
+    "signup": "Rozpocznij bezpłatny okres próbny"
+  },
+  "onboarding": {
+    "subtitle": "Pomóż nam spersonalizować Twoje doświadczenie",
+    "continue": "Dalej →",
+    "step1": {
+      "title": "Jak będziesz używać Zerova?",
+      "desc": "To określa, jak asystent odpowiada na Twoje potrzeby.",
+      "solo": "Sam",
+      "soloDesc": "Chcę pracować nad sobą i swoimi umiejętnościami relacyjnymi",
+      "couple": "Jako para",
+      "coupleDesc": "Mój partner i ja będziemy używać razem"
+    },
+    "step2": {
+      "title": "Jak długo jesteście razem?",
+      "opt1": "Mniej niż 1 rok",
+      "opt2": "1–3 lata",
+      "opt3": "3–7 lat",
+      "opt4": "7–15 lat",
+      "opt5": "15+ lat",
+      "opt6": "Jeszcze nie jestem w związku"
+    },
+    "step3": {
+      "title": "Jak opisałbyś sytuację teraz?",
+      "stable": "🌱 Stabilna",
+      "stableDesc": "Sprawy idą dobrze — chcę nadal rosnąć",
+      "tension": "⚡ Pewne napięcie",
+      "tensionDesc": "Mamy powtarzające się tarcia, ale radzimy sobie",
+      "crisis": "🌊 W kryzysie",
+      "crisisDesc": "Sprawy są trudne i potrzebujemy prawdziwej pomocy"
+    },
+    "step4": {
+      "title": "Na jakim głównym obszarze chcesz pracować?",
+      "desc": "Wybierz ten, który wydaje się teraz najbardziej istotny.",
+      "opt1": "Komunikacja",
+      "opt2": "Zaufanie",
+      "opt3": "Intymność",
+      "opt4": "Finanse",
+      "opt5": "Rodzicielstwo",
+      "opt6": "Czas razem",
+      "opt7": "Rodzina rozszerzona",
+      "opt8": "Cele życiowe",
+      "button": "Rozpocznij moją podróż →",
+      "loading": "Konfigurowanie..."
+    }
+  },
+  "dashboard": {
+    "defaultName": "tam",
+    "signout": "Wyloguj się",
+    "trialDays": "dni",
+    "trialLeft": "pozostałych w bezpłatnym okresie próbnym",
+    "subscribe": "Subskrybuj",
+    "trialExpiredTitle": "Twój okres próbny się skończył",
+    "trialExpiredDesc": "Subskrybuj, aby kontynuować swoją relacyjną podróż.",
+    "subscribeButton": "Subskrybuj za 30$/miesiąc",
+    "welcome": "Witaj z powrotem, {name}",
+    "subtitle": "Jak się dziś sprawy mają między wami?",
+    "streak": "Dni z rzędu",
+    "sessions": "Sesje",
+    "checkins": "Check-iny",
+    "talkTitle": "Porozmawiaj z Zerovą",
+    "talkDesc": "Po prostu zacznij mówić — Zerova wykryje, czego potrzebujesz",
+    "modeSafeSpace": "Bezpieczna Przestrzeń",
+    "modeSafeSpaceDesc": "Przetwórz trudny moment",
+    "modeCoach": "Coach",
+    "modeCoachDesc": "Naucz się konkretnej umiejętności",
+    "modeCheckin": "Check-in",
+    "modeCheckinDesc": "Szybki dzienny puls"
+  },
+  "subscribe": {
+    "title": "Kontynuuj swoją podróż",
+    "subtitle": "Twój okres próbny się skończył. Subskrybuj, aby kontynuować.",
+    "badge": "Oferta premiowa",
+    "perMonth": "miesięcznie",
+    "offerNote": "15$/miesiąc przez pierwsze 3 miesiące, potem 30$/miesiąc",
+    "features": [
+      "Nieograniczone sesje Bezpiecznej Przestrzeni",
+      "Pełny tryb Coach ze śledzeniem umiejętności",
+      "Codzienne check-iny i system serii",
+      "Skumulowany Profil Relacyjny",
+      "Naukowa metodologia Gottmana",
+      "17 języków"
+    ],
+    "button": "Zacznij za 15$/miesiąc",
+    "loading": "Otwieranie płatności...",
+    "secure": "Bezpieczna płatność przez Paddle · Anuluj w dowolnym momencie",
+    "back": "Wróć do pulpitu"
   }
 }
