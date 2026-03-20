@@ -1,160 +1,69 @@
 {
-  "common": {
-    "siteName": "Zerova"
-  },
-  "nav": {
-    "login": "Logg inn",
-    "signup": "Begynn gratis"
-  },
+  "common": { "siteName": "Zerova" },
+  "nav": { "login": "Logg inn", "signup": "Begynn gratis" },
   "hero": {
     "badge": "Basert på Gottman-vitenskap",
-    "headline": "Bygg et forhold som",
-    "headlineAccent": "virkelig fungerer.",
-    "subheadline": "Zerova er din personlige assistent for relasjonell intelligens — basert på 40 år med vitenskap, trent på din spesifikke dynamikk.",
+    "headline": "Klokken er 23. Dere har nettopp kranglet.",
+    "headlineAccent": "Neste time hos terapeuten: torsdag.",
+    "headlineLine3": "Zerova er her nå.",
+    "subheadline": "AI-relasjonsassistent, tilgjengelig 24/7. Basert på 40 år med Gottman-vitenskap.",
     "cardDesc": "Din relasjonelle guide, alltid tilgjengelig.",
-    "cta": "Start gratis prøveperiode",
+    "cta": "Prøv gratis i 7 dager",
     "ctaSecondary": "Hvordan det fungerer",
-    "trial": "7 dager gratis · Ingen kredittkort nødvendig"
+    "trial": "7 dager gratis · Deretter 30$/måned",
+    "trialNote": "Ingen kredittkort · Avbryt når som helst",
+    "available": "Tilgjengelig 24/7"
   },
   "modes": {
     "title": "Tre moduser. Én assistent.",
     "subtitle": "Zerova oppdager hva du trenger — eller kan du velge selv.",
-    "safeSpace": {
-      "title": "Trygt Rom",
-      "desc": "Bearbeid vanskelige følelser og konflikter i et rom designet for at du skal føle deg genuint hørt før noen veiledning tilbys."
-    },
-    "coach": {
-      "title": "Coach",
-      "desc": "Lær og øv spesifikke Gottman-ferdigheter — Myk Start, akseptere ansvar, vende seg mot hverandre — med dine virkelige situasjoner."
-    },
-    "checkin": {
-      "title": "Daglig Sjekk-inn",
-      "desc": "En topminutters puls på forholdet ditt. Bygger et longitudinelt bilde av dynamikken din over tid."
-    }
+    "safeSpace": { "title": "Trygt Rom", "desc": "Bearbeid vanskelige følelser og konflikter i et rom designet for at du skal føle deg genuint hørt før noen veiledning tilbys." },
+    "coach": { "title": "Coach", "desc": "Lær og øv spesifikke Gottman-ferdigheter — Myk Start, akseptere ansvar, vende seg mot hverandre — med dine virkelige situasjoner." },
+    "checkin": { "title": "Daglig Sjekk-inn", "desc": "En toministers puls på forholdet ditt. Bygger et longitudinelt bilde av dynamikken din over tid." }
   },
   "science": {
     "title": "Ingen meninger. Vitenskap.",
     "subtitle": "Hvert inngrep er basert på fagfellevurdert relasjonsforskning.",
     "stat1": "av par rapporterer sterkere forhold med konsekvent Gottman-praksis",
     "stat2": "år med fagfellevurdert forskning bak metodologien",
-    "stat3": "vitenskapelige rammeverk: Gottman-metoden, EFT, CBCT"
+    "stat3": "vitenskapelige rammeverk: Gottman-metoden, EFT, CBCT",
+    "quote": "Par som lærer og anvender Gottman-prinsipper rapporterer målbare forbedringer i relasjonstilfredshet, kommunikasjon og konfliktløsning.",
+    "quoteSource": "— The Gottman Institute, basert på 40 år med forskning"
+  },
+  "urgency": {
+    "title": "Kostnaden ved å vente",
+    "stat1": "år venter et gjennomsnittlig par før de søker hjelp",
+    "stat2": "har allerede bestemt seg for skilsmisse når de endelig søker hjelp",
+    "stat3": "Zerova er tilgjengelig når terapeuten din ikke er det",
+    "message": "Hver måned med uløst konflikt gjør mønstrene vanskeligere å endre. Ikke vent til det er for sent.",
+    "cta": "Begynn nå — Gratis i 7 dager"
   },
   "cta": {
     "title": "Forholdet ditt fortjener dette.",
     "subtitle": "De fleste par venter til ting blir kritiske. Den beste tiden å bygge relasjonell intelligens er før du trenger det akutt.",
     "button": "Start gratis prøveperiode",
-    "trial": "7 dager gratis · Deretter $30/måned · Avbryt når som helst"
+    "trial": "7 dager gratis · Deretter 30$/måned · Avbryt når som helst"
   },
-  "footer": {
-    "copyright": "© 2026 Zerova / VividShift. Alle rettigheter forbeholdt."
-  },
+  "footer": { "copyright": "© 2026 Zerova / VividShift. Alle rettigheter forbeholdt." },
   "signup": {
-    "subtitle": "Opprett kontoen din",
-    "name": "Fornavn",
-    "email": "E-post",
-    "password": "Passord",
-    "button": "Opprett konto",
-    "loading": "Oppretter konto...",
-    "hasAccount": "Har du allerede en konto?",
-    "login": "Logg inn",
-    "trial": "7 dagers prøveperiode inkludert · Ingen kredittkort nødvendig",
-    "emailConfirmTitle": "Sjekk e-posten din",
-    "emailConfirmDesc": "Vi sendte en bekreftelseslenke til",
-    "emailConfirmNote": "Klikk på lenken i e-posten for å aktivere kontoen din."
+    "subtitle": "Opprett kontoen din", "name": "Fornavn", "email": "E-post", "password": "Passord", "button": "Opprett konto", "loading": "Oppretter konto...", "hasAccount": "Har du allerede en konto?", "login": "Logg inn", "trial": "7 dagers prøveperiode inkludert · Ingen kredittkort",
+    "emailConfirmTitle": "Sjekk e-posten din", "emailConfirmDesc": "Vi sendte en bekreftelseslenke til", "emailConfirmNote": "Klikk på lenken i e-posten for å aktivere kontoen din."
   },
-  "login": {
-    "subtitle": "Velkommen tilbake",
-    "email": "E-post",
-    "password": "Passord",
-    "button": "Logg inn",
-    "loading": "Logger inn...",
-    "noAccount": "Har du ikke en konto?",
-    "signup": "Start gratis prøveperiode"
-  },
+  "login": { "subtitle": "Velkommen tilbake", "email": "E-post", "password": "Passord", "button": "Logg inn", "loading": "Logger inn...", "noAccount": "Har du ikke en konto?", "signup": "Start gratis prøveperiode" },
   "onboarding": {
-    "subtitle": "Hjelp oss å tilpasse opplevelsen din",
-    "continue": "Fortsett →",
-    "step1": {
-      "title": "Hvordan vil du bruke Zerova?",
-      "desc": "Dette bestemmer hvordan assistenten svarer deg.",
-      "solo": "På egen hånd",
-      "soloDesc": "Jeg vil jobbe med meg selv og mine relasjonelle ferdigheter",
-      "couple": "Som et par",
-      "coupleDesc": "Partneren min og jeg vil bruke det sammen"
-    },
-    "step2": {
-      "title": "Hvor lenge har dere vært sammen?",
-      "opt1": "Mindre enn 1 år",
-      "opt2": "1–3 år",
-      "opt3": "3–7 år",
-      "opt4": "7–15 år",
-      "opt5": "15+ år",
-      "opt6": "Ikke i et forhold ennå"
-    },
-    "step3": {
-      "title": "Hvordan vil du beskrive ting akkurat nå?",
-      "stable": "🌱 Stabil",
-      "stableDesc": "Ting er for det meste bra — jeg vil fortsette å vokse",
-      "tension": "⚡ Litt spenning",
-      "tensionDesc": "Vi har gjentakende friksjon, men klarer oss",
-      "crisis": "🌊 I krise",
-      "crisisDesc": "Ting er vanskelig og vi trenger ekte hjelp"
-    },
-    "step4": {
-      "title": "Hvilket hovedområde vil du jobbe med?",
-      "desc": "Velg det som føles mest relevant akkurat nå.",
-      "opt1": "Kommunikasjon",
-      "opt2": "Tillit",
-      "opt3": "Intimitet",
-      "opt4": "Økonomi",
-      "opt5": "Foreldreskap",
-      "opt6": "Tid sammen",
-      "opt7": "Utvidet familie",
-      "opt8": "Livsmål",
-      "button": "Start reisen min →",
-      "loading": "Konfigurerer..."
-    }
+    "subtitle": "Hjelp oss å tilpasse opplevelsen din", "continue": "Fortsett →",
+    "step1": { "title": "Hvordan vil du bruke Zerova?", "desc": "Dette bestemmer hvordan assistenten svarer deg.", "solo": "På egen hånd", "soloDesc": "Jeg vil jobbe med meg selv og mine relasjonelle ferdigheter", "couple": "Som et par", "coupleDesc": "Partneren min og jeg vil bruke det sammen" },
+    "step2": { "title": "Hvor lenge har dere vært sammen?", "opt1": "Mindre enn 1 år", "opt2": "1–3 år", "opt3": "3–7 år", "opt4": "7–15 år", "opt5": "15+ år", "opt6": "Ikke i et forhold ennå" },
+    "step3": { "title": "Hvordan vil du beskrive ting akkurat nå?", "stable": "🌱 Stabil", "stableDesc": "Ting er for det meste bra — jeg vil fortsette å vokse", "tension": "⚡ Litt spenning", "tensionDesc": "Vi har gjentakende friksjon, men klarer oss", "crisis": "🌊 I krise", "crisisDesc": "Ting er vanskelig og vi trenger ekte hjelp" },
+    "step4": { "title": "Hvilket hovedområde vil du jobbe med?", "desc": "Velg det som føles mest relevant akkurat nå.", "opt1": "Kommunikasjon", "opt2": "Tillit", "opt3": "Intimitet", "opt4": "Økonomi", "opt5": "Foreldreskap", "opt6": "Tid sammen", "opt7": "Utvidet familie", "opt8": "Livsmål", "button": "Start reisen min →", "loading": "Konfigurerer..." }
   },
   "dashboard": {
-    "defaultName": "der",
-    "signout": "Logg ut",
-    "trialDays": "dager",
-    "trialLeft": "igjen i den gratis prøveperioden",
-    "subscribe": "Abonner",
-    "trialExpiredTitle": "Prøveperioden din er avsluttet",
-    "trialExpiredDesc": "Abonner for å fortsette den relasjonelle reisen din.",
-    "subscribeButton": "Abonner for $30/måned",
-    "welcome": "Velkommen tilbake, {name}",
-    "subtitle": "Hvordan er det mellom dere i dag?",
-    "streak": "Dager på rad",
-    "sessions": "Økter",
-    "checkins": "Sjekk-inn",
-    "talkTitle": "Snakk med Zerova",
-    "talkDesc": "Bare begynn å snakke — Zerova oppdager hva du trenger",
-    "modeSafeSpace": "Trygt Rom",
-    "modeSafeSpaceDesc": "Bearbeid et vanskelig øyeblikk",
-    "modeCoach": "Coach",
-    "modeCoachDesc": "Lær en spesifikk ferdighet",
-    "modeCheckin": "Sjekk-inn",
-    "modeCheckinDesc": "Rask daglig puls"
+    "defaultName": "der", "signout": "Logg ut", "trialDays": "dager", "trialLeft": "igjen i den gratis prøveperioden", "subscribe": "Abonner", "trialExpiredTitle": "Prøveperioden din er avsluttet", "trialExpiredDesc": "Abonner for å fortsette den relasjonelle reisen din.", "subscribeButton": "Abonner for 30$/måned", "welcome": "Velkommen tilbake, {name}", "subtitle": "Hvordan er det mellom dere i dag?", "streak": "Dager på rad", "sessions": "Økter", "checkins": "Sjekk-inn", "talkTitle": "Snakk med Zerova", "talkDesc": "Bare begynn å snakke — Zerova oppdager hva du trenger", "modeSafeSpace": "Trygt Rom", "modeSafeSpaceDesc": "Bearbeid et vanskelig øyeblikk", "modeCoach": "Coach", "modeCoachDesc": "Lær en spesifikk ferdighet", "modeCheckin": "Sjekk-inn", "modeCheckinDesc": "Rask daglig puls"
   },
   "subscribe": {
-    "title": "Fortsett reisen din",
-    "subtitle": "Prøveperioden din er avsluttet. Abonner for å fortsette å bygge.",
-    "badge": "Lanseringstilbud",
-    "perMonth": "per måned",
-    "offerNote": "$15/måned de første 3 månedene, deretter $30/måned",
-    "features": [
-      "Ubegrensede Trygt Rom-økter",
-      "Full Coach-modus med ferdighetssporing",
-      "Daglige sjekk-inn og streak-system",
-      "Kumulativ Relasjonell Profil",
-      "Vitenskapelig Gottman-metodologi",
-      "17 språk"
-    ],
-    "button": "Begynn for $15/måned",
-    "loading": "Åpner betaling...",
-    "secure": "Sikker betaling via Paddle · Avbryt når som helst",
-    "back": "Tilbake til dashbordet"
-  }
+    "title": "Fortsett reisen din", "subtitle": "Prøveperioden din er avsluttet. Abonner for å fortsette å bygge.", "badge": "Lanseringstilbud", "perMonth": "per måned", "offerNote": "15$/måned de første 3 månedene, deretter 30$/måned",
+    "features": ["Ubegrensede Trygt Rom-økter", "Full Coach-modus med ferdighetssporing", "Daglige sjekk-inn og streak-system", "Kumulativ Relasjonell Profil", "Vitenskapelig Gottman-metodologi", "17 språk"],
+    "button": "Begynn for 15$/måned", "loading": "Åpner betaling...", "secure": "Sikker betaling via Paddle · Avbryt når som helst", "back": "Tilbake til dashbordet"
+  },
+  "chat": { "back": "Tilbake", "emptyState": "Bare begynn å snakke — Zerova lytter", "placeholder": "Hva tenker du på?", "inputHint": "Enter for å sende · Shift+Enter for ny linje", "modeSafeSpace": "Trygt Rom", "modeCoach": "Coach", "modeCheckin": "Sjekk-inn" }
 }

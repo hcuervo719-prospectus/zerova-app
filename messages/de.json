@@ -1,160 +1,69 @@
 {
-  "common": {
-    "siteName": "Zerova"
-  },
-  "nav": {
-    "login": "Anmelden",
-    "signup": "Kostenlos starten"
-  },
+  "common": { "siteName": "Zerova" },
+  "nav": { "login": "Anmelden", "signup": "Kostenlos starten" },
   "hero": {
     "badge": "Basierend auf der Gottman-Wissenschaft",
-    "headline": "Bauen Sie eine Beziehung auf, die",
-    "headlineAccent": "wirklich funktioniert.",
-    "subheadline": "Zerova ist Ihr persönlicher Assistent für Relationale Intelligenz — basierend auf 40 Jahren Wissenschaft, trainiert auf Ihre spezifische Dynamik.",
+    "headline": "Es ist 23 Uhr. Sie haben gerade gestritten.",
+    "headlineAccent": "Ihr nächster Therapeutentermin: Donnerstag.",
+    "headlineLine3": "Zerova ist jetzt da.",
+    "subheadline": "KI-Beziehungsassistent, 24/7 verfügbar. Basierend auf 40 Jahren Gottman-Wissenschaft.",
     "cardDesc": "Ihr relationaler Begleiter, immer verfügbar.",
-    "cta": "Kostenlose Testversion starten",
+    "cta": "7 Tage kostenlos testen",
     "ctaSecondary": "Wie es funktioniert",
-    "trial": "7 Tage kostenlos · Keine Kreditkarte erforderlich"
+    "trial": "7 Tage kostenlos · Dann 30$/Monat",
+    "trialNote": "Keine Kreditkarte · Jederzeit kündigen",
+    "available": "24/7 verfügbar"
   },
   "modes": {
     "title": "Drei Modi. Ein Assistent.",
     "subtitle": "Zerova erkennt, was Sie brauchen — oder Sie wählen selbst.",
-    "safeSpace": {
-      "title": "Sicherer Raum",
-      "desc": "Verarbeiten Sie schwierige Emotionen und Konflikte in einem Raum, der darauf ausgelegt ist, dass Sie sich wirklich gehört fühlen, bevor Ratschläge gegeben werden."
-    },
-    "coach": {
-      "title": "Coach",
-      "desc": "Lernen und üben Sie spezifische Gottman-Fähigkeiten — Sanfter Einstieg, Verantwortung übernehmen, sich zuwenden — anhand Ihrer realen Situationen."
-    },
-    "checkin": {
-      "title": "Tägliches Check-in",
-      "desc": "Ein zweiminütiger Puls Ihrer Beziehung. Erstellt ein longitudinales Bild Ihrer Dynamik über die Zeit."
-    }
+    "safeSpace": { "title": "Sicherer Raum", "desc": "Verarbeiten Sie schwierige Emotionen und Konflikte in einem Raum, der darauf ausgelegt ist, dass Sie sich wirklich gehört fühlen, bevor Ratschläge gegeben werden." },
+    "coach": { "title": "Coach", "desc": "Lernen und üben Sie spezifische Gottman-Fähigkeiten — Sanfter Einstieg, Verantwortung übernehmen, sich zuwenden — anhand Ihrer realen Situationen." },
+    "checkin": { "title": "Tägliches Check-in", "desc": "Ein zweiminütiger Puls Ihrer Beziehung. Erstellt ein longitudinales Bild Ihrer Dynamik über die Zeit." }
   },
   "science": {
     "title": "Keine Meinungen. Wissenschaft.",
     "subtitle": "Jede Intervention basiert auf peer-reviewter Beziehungsforschung.",
     "stat1": "der Paare berichten von stärkeren Beziehungen mit konsequenter Gottman-Praxis",
     "stat2": "Jahre peer-reviewter Forschung hinter der Methodik",
-    "stat3": "wissenschaftliche Rahmenwerke: Gottman-Methode, EFT, CBCT"
+    "stat3": "wissenschaftliche Rahmenwerke: Gottman-Methode, EFT, CBCT",
+    "quote": "Paare, die Gottman-Prinzipien lernen und anwenden, berichten von messbaren Verbesserungen in Beziehungszufriedenheit, Kommunikation und Konfliktlösung.",
+    "quoteSource": "— The Gottman Institute, basierend auf 40 Jahren Forschung"
+  },
+  "urgency": {
+    "title": "Die Kosten des Wartens",
+    "stat1": "Jahre wartet ein Paar durchschnittlich, bevor es Hilfe sucht",
+    "stat2": "haben sich bereits zur Scheidung entschieden, wenn sie endlich Hilfe suchen",
+    "stat3": "Zerova ist verfügbar, wenn Ihr Therapeut es nicht ist",
+    "message": "Jeder Monat ungelöster Konflikte macht die Muster schwerer zu ändern. Warten Sie nicht, bis es zu spät ist.",
+    "cta": "Jetzt starten — 7 Tage kostenlos"
   },
   "cta": {
     "title": "Ihre Beziehung verdient das.",
-    "subtitle": "Die meisten Paare warten, bis die Dinge kritisch werden. Der beste Zeitpunkt, relationale Intelligenz aufzubauen, ist bevor man sie dringend braucht.",
+    "subtitle": "Die meisten Paare warten, bis die Dinge kritisch werden. Der beste Zeitpunkt, relationale Intelligenz aufzubauen, ist bevor Sie sie dringend brauchen.",
     "button": "Kostenlose Testversion starten",
     "trial": "7 Tage kostenlos · Dann 30$/Monat · Jederzeit kündigen"
   },
-  "footer": {
-    "copyright": "© 2026 Zerova / VividShift. Alle Rechte vorbehalten."
-  },
+  "footer": { "copyright": "© 2026 Zerova / VividShift. Alle Rechte vorbehalten." },
   "signup": {
-    "subtitle": "Konto erstellen",
-    "name": "Vorname",
-    "email": "E-Mail",
-    "password": "Passwort",
-    "button": "Konto erstellen",
-    "loading": "Konto wird erstellt...",
-    "hasAccount": "Haben Sie bereits ein Konto?",
-    "login": "Anmelden",
-    "trial": "7-tägige Testversion inklusive · Keine Kreditkarte erforderlich",
-    "emailConfirmTitle": "Überprüfen Sie Ihre E-Mail",
-    "emailConfirmDesc": "Wir haben einen Bestätigungslink gesendet an",
-    "emailConfirmNote": "Klicken Sie auf den Link in der E-Mail, um Ihr Konto zu aktivieren."
+    "subtitle": "Konto erstellen", "name": "Vorname", "email": "E-Mail", "password": "Passwort", "button": "Konto erstellen", "loading": "Konto wird erstellt...", "hasAccount": "Haben Sie bereits ein Konto?", "login": "Anmelden", "trial": "7 Tage Testversion inklusive · Keine Kreditkarte erforderlich",
+    "emailConfirmTitle": "Überprüfen Sie Ihre E-Mail", "emailConfirmDesc": "Wir haben einen Bestätigungslink gesendet an", "emailConfirmNote": "Klicken Sie auf den Link in der E-Mail, um Ihr Konto zu aktivieren."
   },
-  "login": {
-    "subtitle": "Willkommen zurück",
-    "email": "E-Mail",
-    "password": "Passwort",
-    "button": "Anmelden",
-    "loading": "Anmeldung...",
-    "noAccount": "Haben Sie kein Konto?",
-    "signup": "Kostenlose Testversion starten"
-  },
+  "login": { "subtitle": "Willkommen zurück", "email": "E-Mail", "password": "Passwort", "button": "Anmelden", "loading": "Anmeldung...", "noAccount": "Haben Sie kein Konto?", "signup": "Kostenlose Testversion starten" },
   "onboarding": {
-    "subtitle": "Helfen Sie uns, Ihre Erfahrung zu personalisieren",
-    "continue": "Weiter →",
-    "step1": {
-      "title": "Wie werden Sie Zerova nutzen?",
-      "desc": "Das bestimmt, wie der Assistent auf Sie reagiert.",
-      "solo": "Alleine",
-      "soloDesc": "Ich möchte an mir selbst und meinen relationalen Fähigkeiten arbeiten",
-      "couple": "Als Paar",
-      "coupleDesc": "Mein Partner und ich werden es gemeinsam nutzen"
-    },
-    "step2": {
-      "title": "Wie lange sind Sie schon zusammen?",
-      "opt1": "Weniger als 1 Jahr",
-      "opt2": "1–3 Jahre",
-      "opt3": "3–7 Jahre",
-      "opt4": "7–15 Jahre",
-      "opt5": "15+ Jahre",
-      "opt6": "Noch nicht in einer Beziehung"
-    },
-    "step3": {
-      "title": "Wie würden Sie die Dinge gerade beschreiben?",
-      "stable": "🌱 Stabil",
-      "stableDesc": "Die Dinge laufen gut — ich möchte weiter wachsen",
-      "tension": "⚡ Etwas Spannung",
-      "tensionDesc": "Wir haben wiederkehrende Reibungen, aber wir kommen zurecht",
-      "crisis": "🌊 In der Krise",
-      "crisisDesc": "Die Dinge sind schwierig und wir brauchen echte Hilfe"
-    },
-    "step4": {
-      "title": "An welchem Hauptbereich möchten Sie arbeiten?",
-      "desc": "Wählen Sie den, der sich gerade am relevantesten anfühlt.",
-      "opt1": "Kommunikation",
-      "opt2": "Vertrauen",
-      "opt3": "Intimität",
-      "opt4": "Finanzen",
-      "opt5": "Elternschaft",
-      "opt6": "Zeit zusammen",
-      "opt7": "Erweiterte Familie",
-      "opt8": "Lebensziele",
-      "button": "Meine Reise beginnen →",
-      "loading": "Einrichten..."
-    }
+    "subtitle": "Helfen Sie uns, Ihre Erfahrung zu personalisieren", "continue": "Weiter →",
+    "step1": { "title": "Wie werden Sie Zerova nutzen?", "desc": "Das bestimmt, wie der Assistent auf Sie reagiert.", "solo": "Alleine", "soloDesc": "Ich möchte an mir selbst und meinen relationalen Fähigkeiten arbeiten", "couple": "Als Paar", "coupleDesc": "Mein Partner und ich werden es gemeinsam nutzen" },
+    "step2": { "title": "Wie lange sind Sie schon zusammen?", "opt1": "Weniger als 1 Jahr", "opt2": "1–3 Jahre", "opt3": "3–7 Jahre", "opt4": "7–15 Jahre", "opt5": "15+ Jahre", "opt6": "Noch nicht in einer Beziehung" },
+    "step3": { "title": "Wie würden Sie die Dinge gerade beschreiben?", "stable": "🌱 Stabil", "stableDesc": "Die Dinge laufen gut — ich möchte weiter wachsen", "tension": "⚡ Etwas Spannung", "tensionDesc": "Wir haben wiederkehrende Reibungen aber wir kommen zurecht", "crisis": "🌊 In der Krise", "crisisDesc": "Die Dinge sind schwierig und wir brauchen echte Hilfe" },
+    "step4": { "title": "An welchem Hauptbereich möchten Sie arbeiten?", "desc": "Wählen Sie den, der sich gerade am relevantesten anfühlt.", "opt1": "Kommunikation", "opt2": "Vertrauen", "opt3": "Intimität", "opt4": "Finanzen", "opt5": "Elternschaft", "opt6": "Zeit zusammen", "opt7": "Erweiterte Familie", "opt8": "Lebensziele", "button": "Meine Reise beginnen →", "loading": "Einrichten..." }
   },
   "dashboard": {
-    "defaultName": "da",
-    "signout": "Abmelden",
-    "trialDays": "Tage",
-    "trialLeft": "verbleibend in Ihrer kostenlosen Testversion",
-    "subscribe": "Abonnieren",
-    "trialExpiredTitle": "Ihre Testversion ist abgelaufen",
-    "trialExpiredDesc": "Abonnieren Sie, um Ihre relationale Reise fortzusetzen.",
-    "subscribeButton": "Für 30$/Monat abonnieren",
-    "welcome": "Willkommen zurück, {name}",
-    "subtitle": "Wie läuft es heute zwischen Ihnen beiden?",
-    "streak": "Tage in Folge",
-    "sessions": "Sitzungen",
-    "checkins": "Check-ins",
-    "talkTitle": "Mit Zerova sprechen",
-    "talkDesc": "Fangen Sie einfach an zu reden — Zerova erkennt, was Sie brauchen",
-    "modeSafeSpace": "Sicherer Raum",
-    "modeSafeSpaceDesc": "Einen schwierigen Moment verarbeiten",
-    "modeCoach": "Coach",
-    "modeCoachDesc": "Eine spezifische Fähigkeit erlernen",
-    "modeCheckin": "Check-in",
-    "modeCheckinDesc": "Schneller täglicher Puls"
+    "defaultName": "da", "signout": "Abmelden", "trialDays": "Tage", "trialLeft": "verbleibend in Ihrer kostenlosen Testversion", "subscribe": "Abonnieren", "trialExpiredTitle": "Ihre Testversion ist abgelaufen", "trialExpiredDesc": "Abonnieren Sie, um Ihre relationale Reise fortzusetzen.", "subscribeButton": "Für 30$/Monat abonnieren", "welcome": "Willkommen zurück, {name}", "subtitle": "Wie läuft es heute zwischen Ihnen beiden?", "streak": "Tage in Folge", "sessions": "Sitzungen", "checkins": "Check-ins", "talkTitle": "Mit Zerova sprechen", "talkDesc": "Fangen Sie einfach an zu reden — Zerova erkennt, was Sie brauchen", "modeSafeSpace": "Sicherer Raum", "modeSafeSpaceDesc": "Einen schwierigen Moment verarbeiten", "modeCoach": "Coach", "modeCoachDesc": "Eine spezifische Fähigkeit erlernen", "modeCheckin": "Check-in", "modeCheckinDesc": "Schneller täglicher Puls"
   },
   "subscribe": {
-    "title": "Setzen Sie Ihre Reise fort",
-    "subtitle": "Ihre Testversion ist abgelaufen. Abonnieren Sie, um weiterzumachen.",
-    "badge": "Einführungsangebot",
-    "perMonth": "pro Monat",
-    "offerNote": "15$/Monat für die ersten 3 Monate, dann 30$/Monat",
-    "features": [
-      "Unbegrenzte Sicherer-Raum-Sitzungen",
-      "Vollständiger Coach-Modus mit Fähigkeitsverfolgung",
-      "Tägliche Check-ins und Streak-System",
-      "Kumulatives Relationales Profil",
-      "Wissenschaftliche Gottman-Methodik",
-      "17 Sprachen"
-    ],
-    "button": "Für 15$/Monat starten",
-    "loading": "Zahlung wird geöffnet...",
-    "secure": "Sichere Zahlung über Paddle · Jederzeit kündigen",
-    "back": "Zurück zum Dashboard"
-  }
+    "title": "Setzen Sie Ihre Reise fort", "subtitle": "Ihre Testversion ist abgelaufen. Abonnieren Sie, um weiterzumachen.", "badge": "Einführungsangebot", "perMonth": "pro Monat", "offerNote": "15$/Monat für die ersten 3 Monate, dann 30$/Monat",
+    "features": ["Unbegrenzte Sicherer-Raum-Sitzungen", "Vollständiger Coach-Modus mit Fähigkeitsverfolgung", "Tägliche Check-ins und Streak-System", "Kumulatives Relationales Profil", "Wissenschaftliche Gottman-Methodik", "17 Sprachen"],
+    "button": "Für 15$/Monat starten", "loading": "Zahlung wird geöffnet...", "secure": "Sichere Zahlung über Paddle · Jederzeit kündigen", "back": "Zurück zum Dashboard"
+  },
+  "chat": { "back": "Zurück", "emptyState": "Fangen Sie einfach an zu reden — Zerova hört zu", "placeholder": "Was beschäftigt Sie?", "inputHint": "Enter zum Senden · Shift+Enter für neue Zeile", "modeSafeSpace": "Sicherer Raum", "modeCoach": "Coach", "modeCheckin": "Check-in" }
 }

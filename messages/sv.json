@@ -1,160 +1,69 @@
 {
-  "common": {
-    "siteName": "Zerova"
-  },
-  "nav": {
-    "login": "Logga in",
-    "signup": "Börja gratis"
-  },
+  "common": { "siteName": "Zerova" },
+  "nav": { "login": "Logga in", "signup": "Börja gratis" },
   "hero": {
     "badge": "Baserat på Gottman-vetenskap",
-    "headline": "Bygg ett förhållande som",
-    "headlineAccent": "verkligen fungerar.",
-    "subheadline": "Zerova är din personliga assistent för relationell intelligens — grundad på 40 år av vetenskap, tränad på din specifika dynamik.",
+    "headline": "Klockan är 23. Ni har precis bråkat.",
+    "headlineAccent": "Nästa tid hos terapeuten: torsdag.",
+    "headlineLine3": "Zerova är här nu.",
+    "subheadline": "AI-relationsassistent, tillgänglig 24/7. Baserat på 40 år av Gottman-vetenskap.",
     "cardDesc": "Din relationella guide, alltid tillgänglig.",
-    "cta": "Starta gratis provperiod",
+    "cta": "Prova gratis i 7 dagar",
     "ctaSecondary": "Hur det fungerar",
-    "trial": "7 dagar gratis · Inget kreditkort krävs"
+    "trial": "7 dagar gratis · Sedan 30$/månad",
+    "trialNote": "Inget kreditkort · Avbryt när som helst",
+    "available": "Tillgänglig 24/7"
   },
   "modes": {
     "title": "Tre lägen. En assistent.",
     "subtitle": "Zerova upptäcker vad du behöver — eller kan du välja själv.",
-    "safeSpace": {
-      "title": "Säkert Utrymme",
-      "desc": "Bearbeta svåra känslor och konflikter i ett utrymme utformat för att du ska känna dig genuint hörd innan någon vägledning erbjuds."
-    },
-    "coach": {
-      "title": "Coach",
-      "desc": "Lär dig och öva specifika Gottman-färdigheter — Mjuk Start, acceptera ansvar, vända sig mot varandra — med dina verkliga situationer."
-    },
-    "checkin": {
-      "title": "Daglig Check-in",
-      "desc": "En tvåminuterspuls på ditt förhållande. Bygger en longitudinell bild av din dynamik över tid."
-    }
+    "safeSpace": { "title": "Säkert Utrymme", "desc": "Bearbeta svåra känslor och konflikter i ett utrymme utformat för att du ska känna dig genuint hörd innan någon vägledning erbjuds." },
+    "coach": { "title": "Coach", "desc": "Lär dig och öva specifika Gottman-färdigheter — Mjuk Start, acceptera ansvar, vända sig mot varandra — med dina verkliga situationer." },
+    "checkin": { "title": "Daglig Check-in", "desc": "En tvåminuterspuls på ditt förhållande. Bygger en longitudinell bild av din dynamik över tid." }
   },
   "science": {
     "title": "Inga åsikter. Vetenskap.",
     "subtitle": "Varje insats grundas på kollegialt granskad relationsforskning.",
     "stat1": "av par rapporterar starkare relationer med konsekvent Gottman-praktik",
     "stat2": "år av kollegialt granskad forskning bakom metodologin",
-    "stat3": "vetenskapliga ramverk: Gottman-metoden, EFT, CBCT"
+    "stat3": "vetenskapliga ramverk: Gottman-metoden, EFT, CBCT",
+    "quote": "Par som lär sig och tillämpar Gottman-principer rapporterar mätbara förbättringar i relationstillfredsställelse, kommunikation och konfliktlösning.",
+    "quoteSource": "— The Gottman Institute, baserat på 40 år av forskning"
+  },
+  "urgency": {
+    "title": "Kostnaden av att vänta",
+    "stat1": "år väntar ett genomsnittligt par innan de söker hjälp",
+    "stat2": "har redan bestämt sig för skilsmässa när de slutligen söker hjälp",
+    "stat3": "Zerova är tillgänglig när din terapeut inte är det",
+    "message": "Varje månad av olöst konflikt gör mönstren svårare att förändra. Vänta inte tills det är för sent.",
+    "cta": "Börja nu — Gratis i 7 dagar"
   },
   "cta": {
     "title": "Ditt förhållande förtjänar detta.",
     "subtitle": "De flesta par väntar tills saker blir kritiska. Den bästa tiden att bygga relationell intelligens är innan du behöver det akut.",
     "button": "Starta gratis provperiod",
-    "trial": "7 dagar gratis · Sedan $30/månad · Avbryt när som helst"
+    "trial": "7 dagar gratis · Sedan 30$/månad · Avbryt när som helst"
   },
-  "footer": {
-    "copyright": "© 2026 Zerova / VividShift. Alla rättigheter förbehållna."
-  },
+  "footer": { "copyright": "© 2026 Zerova / VividShift. Alla rättigheter förbehållna." },
   "signup": {
-    "subtitle": "Skapa ditt konto",
-    "name": "Förnamn",
-    "email": "E-post",
-    "password": "Lösenord",
-    "button": "Skapa konto",
-    "loading": "Skapar konto...",
-    "hasAccount": "Har du redan ett konto?",
-    "login": "Logga in",
-    "trial": "7 dagars provperiod ingår · Inget kreditkort krävs",
-    "emailConfirmTitle": "Kontrollera din e-post",
-    "emailConfirmDesc": "Vi skickade en bekräftelselänk till",
-    "emailConfirmNote": "Klicka på länken i e-posten för att aktivera ditt konto."
+    "subtitle": "Skapa ditt konto", "name": "Förnamn", "email": "E-post", "password": "Lösenord", "button": "Skapa konto", "loading": "Skapar konto...", "hasAccount": "Har du redan ett konto?", "login": "Logga in", "trial": "7 dagars provperiod ingår · Inget kreditkort",
+    "emailConfirmTitle": "Kontrollera din e-post", "emailConfirmDesc": "Vi skickade en bekräftelselänk till", "emailConfirmNote": "Klicka på länken i e-posten för att aktivera ditt konto."
   },
-  "login": {
-    "subtitle": "Välkommen tillbaka",
-    "email": "E-post",
-    "password": "Lösenord",
-    "button": "Logga in",
-    "loading": "Loggar in...",
-    "noAccount": "Har du inget konto?",
-    "signup": "Starta gratis provperiod"
-  },
+  "login": { "subtitle": "Välkommen tillbaka", "email": "E-post", "password": "Lösenord", "button": "Logga in", "loading": "Loggar in...", "noAccount": "Har du inget konto?", "signup": "Starta gratis provperiod" },
   "onboarding": {
-    "subtitle": "Hjälp oss att anpassa din upplevelse",
-    "continue": "Fortsätt →",
-    "step1": {
-      "title": "Hur kommer du att använda Zerova?",
-      "desc": "Detta avgör hur assistenten svarar dig.",
-      "solo": "På egen hand",
-      "soloDesc": "Jag vill arbeta med mig själv och mina relationella färdigheter",
-      "couple": "Som ett par",
-      "coupleDesc": "Min partner och jag kommer att använda det tillsammans"
-    },
-    "step2": {
-      "title": "Hur länge har ni varit tillsammans?",
-      "opt1": "Mindre än 1 år",
-      "opt2": "1–3 år",
-      "opt3": "3–7 år",
-      "opt4": "7–15 år",
-      "opt5": "15+ år",
-      "opt6": "Inte i ett förhållande än"
-    },
-    "step3": {
-      "title": "Hur skulle du beskriva saker just nu?",
-      "stable": "🌱 Stabil",
-      "stableDesc": "Saker är mestadels bra — jag vill fortsätta växa",
-      "tension": "⚡ Lite spänning",
-      "tensionDesc": "Vi har återkommande friktion men klarar oss",
-      "crisis": "🌊 I kris",
-      "crisisDesc": "Saker är svåra och vi behöver verklig hjälp"
-    },
-    "step4": {
-      "title": "Vilket huvudområde vill du arbeta med?",
-      "desc": "Välj det som känns mest relevant just nu.",
-      "opt1": "Kommunikation",
-      "opt2": "Förtroende",
-      "opt3": "Intimitet",
-      "opt4": "Ekonomi",
-      "opt5": "Föräldraskap",
-      "opt6": "Tid tillsammans",
-      "opt7": "Utökad familj",
-      "opt8": "Livsmål",
-      "button": "Starta min resa →",
-      "loading": "Konfigurerar..."
-    }
+    "subtitle": "Hjälp oss att anpassa din upplevelse", "continue": "Fortsätt →",
+    "step1": { "title": "Hur kommer du att använda Zerova?", "desc": "Detta avgör hur assistenten svarar dig.", "solo": "På egen hand", "soloDesc": "Jag vill arbeta med mig själv och mina relationella färdigheter", "couple": "Som ett par", "coupleDesc": "Min partner och jag kommer att använda det tillsammans" },
+    "step2": { "title": "Hur länge har ni varit tillsammans?", "opt1": "Mindre än 1 år", "opt2": "1–3 år", "opt3": "3–7 år", "opt4": "7–15 år", "opt5": "15+ år", "opt6": "Inte i ett förhållande än" },
+    "step3": { "title": "Hur skulle du beskriva saker just nu?", "stable": "🌱 Stabil", "stableDesc": "Saker är mestadels bra — jag vill fortsätta växa", "tension": "⚡ Lite spänning", "tensionDesc": "Vi har återkommande friktion men klarar oss", "crisis": "🌊 I kris", "crisisDesc": "Saker är svåra och vi behöver verklig hjälp" },
+    "step4": { "title": "Vilket huvudområde vill du arbeta med?", "desc": "Välj det som känns mest relevant just nu.", "opt1": "Kommunikation", "opt2": "Förtroende", "opt3": "Intimitet", "opt4": "Ekonomi", "opt5": "Föräldraskap", "opt6": "Tid tillsammans", "opt7": "Utökad familj", "opt8": "Livsmål", "button": "Starta min resa →", "loading": "Konfigurerar..." }
   },
   "dashboard": {
-    "defaultName": "där",
-    "signout": "Logga ut",
-    "trialDays": "dagar",
-    "trialLeft": "kvar i din gratis provperiod",
-    "subscribe": "Prenumerera",
-    "trialExpiredTitle": "Din provperiod har avslutats",
-    "trialExpiredDesc": "Prenumerera för att fortsätta din relationella resa.",
-    "subscribeButton": "Prenumerera för $30/månad",
-    "welcome": "Välkommen tillbaka, {name}",
-    "subtitle": "Hur är det mellan er idag?",
-    "streak": "Dagar i rad",
-    "sessions": "Sessioner",
-    "checkins": "Check-ins",
-    "talkTitle": "Prata med Zerova",
-    "talkDesc": "Börja bara prata — Zerova upptäcker vad du behöver",
-    "modeSafeSpace": "Säkert Utrymme",
-    "modeSafeSpaceDesc": "Bearbeta ett svårt ögonblick",
-    "modeCoach": "Coach",
-    "modeCoachDesc": "Lär dig en specifik färdighet",
-    "modeCheckin": "Check-in",
-    "modeCheckinDesc": "Snabb daglig puls"
+    "defaultName": "där", "signout": "Logga ut", "trialDays": "dagar", "trialLeft": "kvar i din gratis provperiod", "subscribe": "Prenumerera", "trialExpiredTitle": "Din provperiod har avslutats", "trialExpiredDesc": "Prenumerera för att fortsätta din relationella resa.", "subscribeButton": "Prenumerera för 30$/månad", "welcome": "Välkommen tillbaka, {name}", "subtitle": "Hur är det mellan er idag?", "streak": "Dagar i rad", "sessions": "Sessioner", "checkins": "Check-ins", "talkTitle": "Prata med Zerova", "talkDesc": "Börja bara prata — Zerova upptäcker vad du behöver", "modeSafeSpace": "Säkert Utrymme", "modeSafeSpaceDesc": "Bearbeta ett svårt ögonblick", "modeCoach": "Coach", "modeCoachDesc": "Lär dig en specifik färdighet", "modeCheckin": "Check-in", "modeCheckinDesc": "Snabb daglig puls"
   },
   "subscribe": {
-    "title": "Fortsätt din resa",
-    "subtitle": "Din provperiod har avslutats. Prenumerera för att fortsätta bygga.",
-    "badge": "Lanseringserbjudande",
-    "perMonth": "per månad",
-    "offerNote": "$15/månad de första 3 månaderna, sedan $30/månad",
-    "features": [
-      "Obegränsade Säkert Utrymme-sessioner",
-      "Fullt Coach-läge med färdighetsspårning",
-      "Dagliga check-ins och streak-system",
-      "Kumulativ Relationell Profil",
-      "Vetenskaplig Gottman-metodologi",
-      "17 språk"
-    ],
-    "button": "Börja för $15/månad",
-    "loading": "Öppnar betalning...",
-    "secure": "Säker betalning via Paddle · Avbryt när som helst",
-    "back": "Tillbaka till instrumentpanelen"
-  }
+    "title": "Fortsätt din resa", "subtitle": "Din provperiod har avslutats. Prenumerera för att fortsätta bygga.", "badge": "Lanseringserbjudande", "perMonth": "per månad", "offerNote": "15$/månad de första 3 månaderna, sedan 30$/månad",
+    "features": ["Obegränsade Säkert Utrymme-sessioner", "Fullt Coach-läge med färdighetsspårning", "Dagliga check-ins och streak-system", "Kumulativ Relationell Profil", "Vetenskaplig Gottman-metodologi", "17 språk"],
+    "button": "Börja för 15$/månad", "loading": "Öppnar betalning...", "secure": "Säker betalning via Paddle · Avbryt när som helst", "back": "Tillbaka till instrumentpanelen"
+  },
+  "chat": { "back": "Tillbaka", "emptyState": "Börja bara prata — Zerova lyssnar", "placeholder": "Vad tänker du på?", "inputHint": "Enter för att skicka · Shift+Enter för ny rad", "modeSafeSpace": "Säkert Utrymme", "modeCoach": "Coach", "modeCheckin": "Check-in" }
 }

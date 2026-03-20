@@ -1,43 +1,42 @@
 {
-  "common": {
-    "siteName": "Zerova"
-  },
-  "nav": {
-    "login": "Inloggen",
-    "signup": "Gratis beginnen"
-  },
+  "common": { "siteName": "Zerova" },
+  "nav": { "login": "Inloggen", "signup": "Gratis beginnen" },
   "hero": {
     "badge": "Gebaseerd op Gottman-wetenschap",
-    "headline": "Bouw een relatie die",
-    "headlineAccent": "echt werkt.",
-    "subheadline": "Zerova is uw persoonlijke Relationele Intelligentie-assistent — gebaseerd op 40 jaar wetenschap, getraind op uw specifieke dynamiek.",
+    "headline": "Het is 23u. Jullie hebben net ruzie gehad.",
+    "headlineAccent": "Je volgende therapeutenafspraak: donderdag.",
+    "headlineLine3": "Zerova is er nu.",
+    "subheadline": "AI-relatieassistent, 24/7 beschikbaar. Gebaseerd op 40 jaar Gottman-wetenschap.",
     "cardDesc": "Uw relationele gids, altijd beschikbaar.",
-    "cta": "Gratis proefperiode starten",
+    "cta": "7 dagen gratis proberen",
     "ctaSecondary": "Hoe het werkt",
-    "trial": "7 dagen gratis · Geen creditcard vereist"
+    "trial": "7 dagen gratis · Dan 30$/maand",
+    "trialNote": "Geen creditcard · Annuleer wanneer u wilt",
+    "available": "24/7 beschikbaar"
   },
   "modes": {
     "title": "Drie modi. Één assistent.",
     "subtitle": "Zerova detecteert wat u nodig heeft — of u kiest zelf.",
-    "safeSpace": {
-      "title": "Veilige Ruimte",
-      "desc": "Verwerk moeilijke emoties en conflicten in een ruimte die is ontworpen om u echt gehoord te laten voelen voordat er begeleiding wordt geboden."
-    },
-    "coach": {
-      "title": "Coach",
-      "desc": "Leer en oefen specifieke Gottman-vaardigheden — Zachte Start, verantwoordelijkheid accepteren, naar elkaar toewenden — met uw echte situaties."
-    },
-    "checkin": {
-      "title": "Dagelijkse Check-in",
-      "desc": "Een twee minuten durende polsslag van uw relatie. Bouwt een longitudinaal beeld van uw dynamiek over tijd."
-    }
+    "safeSpace": { "title": "Veilige Ruimte", "desc": "Verwerk moeilijke emoties en conflicten in een ruimte die is ontworpen om u echt gehoord te laten voelen voordat er begeleiding wordt geboden." },
+    "coach": { "title": "Coach", "desc": "Leer en oefen specifieke Gottman-vaardigheden — Zachte Start, verantwoordelijkheid accepteren, naar elkaar toewenden — met uw echte situaties." },
+    "checkin": { "title": "Dagelijkse Check-in", "desc": "Een twee minuten durende polsslag van uw relatie. Bouwt een longitudinaal beeld van uw dynamiek over tijd." }
   },
   "science": {
     "title": "Geen meningen. Wetenschap.",
     "subtitle": "Elke interventie is gebaseerd op peer-reviewed relatieonderzoek.",
     "stat1": "van de koppels rapporteert sterkere relaties met consistente Gottman-praktijk",
     "stat2": "jaar peer-reviewed onderzoek achter de methodologie",
-    "stat3": "wetenschappelijke kaders: Gottman-methode, EFT, CBCT"
+    "stat3": "wetenschappelijke kaders: Gottman-methode, EFT, CBCT",
+    "quote": "Koppels die Gottman-principes leren en toepassen rapporteren meetbare verbeteringen in relatietevredenheid, communicatie en conflictoplossing.",
+    "quoteSource": "— The Gottman Institute, gebaseerd op 40 jaar onderzoek"
+  },
+  "urgency": {
+    "title": "De kosten van wachten",
+    "stat1": "jaar wacht een koppel gemiddeld voordat het hulp zoekt",
+    "stat2": "heeft al besloten te scheiden wanneer ze eindelijk hulp zoeken",
+    "stat3": "Zerova is beschikbaar wanneer uw therapeut dat niet is",
+    "message": "Elke maand onopgelost conflict maakt de patronen moeilijker te veranderen. Wacht niet tot het te laat is.",
+    "cta": "Begin nu — Gratis 7 dagen"
   },
   "cta": {
     "title": "Uw relatie verdient dit.",
@@ -45,116 +44,26 @@
     "button": "Gratis proefperiode starten",
     "trial": "7 dagen gratis · Dan 30$/maand · Op elk moment opzeggen"
   },
-  "footer": {
-    "copyright": "© 2026 Zerova / VividShift. Alle rechten voorbehouden."
-  },
+  "footer": { "copyright": "© 2026 Zerova / VividShift. Alle rechten voorbehouden." },
   "signup": {
-    "subtitle": "Maak uw account aan",
-    "name": "Voornaam",
-    "email": "E-mail",
-    "password": "Wachtwoord",
-    "button": "Account aanmaken",
-    "loading": "Account aanmaken...",
-    "hasAccount": "Heeft u al een account?",
-    "login": "Inloggen",
-    "trial": "7 dagen proefperiode inbegrepen · Geen creditcard vereist",
-    "emailConfirmTitle": "Controleer uw e-mail",
-    "emailConfirmDesc": "We hebben een bevestigingslink gestuurd naar",
-    "emailConfirmNote": "Klik op de link in de e-mail om uw account te activeren."
+    "subtitle": "Maak uw account aan", "name": "Voornaam", "email": "E-mail", "password": "Wachtwoord", "button": "Account aanmaken", "loading": "Account aanmaken...", "hasAccount": "Heeft u al een account?", "login": "Inloggen", "trial": "7 dagen proefperiode inbegrepen · Geen creditcard",
+    "emailConfirmTitle": "Controleer uw e-mail", "emailConfirmDesc": "We hebben een bevestigingslink gestuurd naar", "emailConfirmNote": "Klik op de link in de e-mail om uw account te activeren."
   },
-  "login": {
-    "subtitle": "Welkom terug",
-    "email": "E-mail",
-    "password": "Wachtwoord",
-    "button": "Inloggen",
-    "loading": "Inloggen...",
-    "noAccount": "Heeft u geen account?",
-    "signup": "Gratis proefperiode starten"
-  },
+  "login": { "subtitle": "Welkom terug", "email": "E-mail", "password": "Wachtwoord", "button": "Inloggen", "loading": "Inloggen...", "noAccount": "Heeft u geen account?", "signup": "Gratis proefperiode starten" },
   "onboarding": {
-    "subtitle": "Help ons uw ervaring te personaliseren",
-    "continue": "Verder →",
-    "step1": {
-      "title": "Hoe gaat u Zerova gebruiken?",
-      "desc": "Dit bepaalt hoe de assistent op u reageert.",
-      "solo": "Alleen",
-      "soloDesc": "Ik wil werken aan mezelf en mijn relationele vaardigheden",
-      "couple": "Als koppel",
-      "coupleDesc": "Mijn partner en ik zullen het samen gebruiken"
-    },
-    "step2": {
-      "title": "Hoe lang zijn jullie al samen?",
-      "opt1": "Minder dan 1 jaar",
-      "opt2": "1–3 jaar",
-      "opt3": "3–7 jaar",
-      "opt4": "7–15 jaar",
-      "opt5": "15+ jaar",
-      "opt6": "Nog niet in een relatie"
-    },
-    "step3": {
-      "title": "Hoe zou u de dingen nu omschrijven?",
-      "stable": "🌱 Stabiel",
-      "stableDesc": "De dingen gaan goed — ik wil blijven groeien",
-      "tension": "⚡ Wat spanning",
-      "tensionDesc": "We hebben terugkerende wrijving maar we redden het",
-      "crisis": "🌊 In crisis",
-      "crisisDesc": "De dingen zijn moeilijk en we hebben echte hulp nodig"
-    },
-    "step4": {
-      "title": "Op welk hoofdgebied wilt u werken?",
-      "desc": "Kies degene die nu het meest relevant aanvoelt.",
-      "opt1": "Communicatie",
-      "opt2": "Vertrouwen",
-      "opt3": "Intimiteit",
-      "opt4": "Financiën",
-      "opt5": "Ouderschap",
-      "opt6": "Tijd samen",
-      "opt7": "Uitgebreide familie",
-      "opt8": "Levensdoelen",
-      "button": "Begin mijn reis →",
-      "loading": "Instellen..."
-    }
+    "subtitle": "Help ons uw ervaring te personaliseren", "continue": "Verder →",
+    "step1": { "title": "Hoe gaat u Zerova gebruiken?", "desc": "Dit bepaalt hoe de assistent op u reageert.", "solo": "Alleen", "soloDesc": "Ik wil werken aan mezelf en mijn relationele vaardigheden", "couple": "Als koppel", "coupleDesc": "Mijn partner en ik zullen het samen gebruiken" },
+    "step2": { "title": "Hoe lang zijn jullie al samen?", "opt1": "Minder dan 1 jaar", "opt2": "1–3 jaar", "opt3": "3–7 jaar", "opt4": "7–15 jaar", "opt5": "15+ jaar", "opt6": "Nog niet in een relatie" },
+    "step3": { "title": "Hoe zou u de dingen nu omschrijven?", "stable": "🌱 Stabiel", "stableDesc": "De dingen gaan goed — ik wil blijven groeien", "tension": "⚡ Wat spanning", "tensionDesc": "We hebben terugkerende wrijving maar we redden het", "crisis": "🌊 In crisis", "crisisDesc": "De dingen zijn moeilijk en we hebben echte hulp nodig" },
+    "step4": { "title": "Op welk hoofdgebied wilt u werken?", "desc": "Kies degene die nu het meest relevant aanvoelt.", "opt1": "Communicatie", "opt2": "Vertrouwen", "opt3": "Intimiteit", "opt4": "Financiën", "opt5": "Ouderschap", "opt6": "Tijd samen", "opt7": "Uitgebreide familie", "opt8": "Levensdoelen", "button": "Begin mijn reis →", "loading": "Instellen..." }
   },
   "dashboard": {
-    "defaultName": "daar",
-    "signout": "Uitloggen",
-    "trialDays": "dagen",
-    "trialLeft": "resterend in uw gratis proefperiode",
-    "subscribe": "Abonneren",
-    "trialExpiredTitle": "Uw proefperiode is afgelopen",
-    "trialExpiredDesc": "Abonneer u om uw relationele reis voort te zetten.",
-    "subscribeButton": "Abonneren voor 30$/maand",
-    "welcome": "Welkom terug, {name}",
-    "subtitle": "Hoe gaan de dingen tussen jullie vandaag?",
-    "streak": "Dagen op rij",
-    "sessions": "Sessies",
-    "checkins": "Check-ins",
-    "talkTitle": "Praat met Zerova",
-    "talkDesc": "Begin gewoon te praten — Zerova detecteert wat u nodig heeft",
-    "modeSafeSpace": "Veilige Ruimte",
-    "modeSafeSpaceDesc": "Verwerk een moeilijk moment",
-    "modeCoach": "Coach",
-    "modeCoachDesc": "Leer een specifieke vaardigheid",
-    "modeCheckin": "Check-in",
-    "modeCheckinDesc": "Snelle dagelijkse polsslag"
+    "defaultName": "daar", "signout": "Uitloggen", "trialDays": "dagen", "trialLeft": "resterend in uw gratis proefperiode", "subscribe": "Abonneren", "trialExpiredTitle": "Uw proefperiode is afgelopen", "trialExpiredDesc": "Abonneer u om uw relationele reis voort te zetten.", "subscribeButton": "Abonneren voor 30$/maand", "welcome": "Welkom terug, {name}", "subtitle": "Hoe gaan de dingen tussen jullie vandaag?", "streak": "Dagen op rij", "sessions": "Sessies", "checkins": "Check-ins", "talkTitle": "Praat met Zerova", "talkDesc": "Begin gewoon te praten — Zerova detecteert wat u nodig heeft", "modeSafeSpace": "Veilige Ruimte", "modeSafeSpaceDesc": "Verwerk een moeilijk moment", "modeCoach": "Coach", "modeCoachDesc": "Leer een specifieke vaardigheid", "modeCheckin": "Check-in", "modeCheckinDesc": "Snelle dagelijkse polsslag"
   },
   "subscribe": {
-    "title": "Zet uw reis voort",
-    "subtitle": "Uw proefperiode is afgelopen. Abonneer u om verder te bouwen.",
-    "badge": "Lanceringsaanbieding",
-    "perMonth": "per maand",
-    "offerNote": "15$/maand voor de eerste 3 maanden, dan 30$/maand",
-    "features": [
-      "Onbeperkte Veilige Ruimte-sessies",
-      "Volledige Coach-modus met vaardigheidsTracking",
-      "Dagelijkse check-ins en streak-systeem",
-      "Cumulatief Relationeel Profiel",
-      "Wetenschappelijke Gottman-methodologie",
-      "17 talen"
-    ],
-    "button": "Begin voor 15$/maand",
-    "loading": "Betaling openen...",
-    "secure": "Veilige betaling via Paddle · Op elk moment opzeggen",
-    "back": "Terug naar dashboard"
-  }
+    "title": "Zet uw reis voort", "subtitle": "Uw proefperiode is afgelopen. Abonneer u om verder te bouwen.", "badge": "Lanceringsaanbieding", "perMonth": "per maand", "offerNote": "15$/maand voor de eerste 3 maanden, dan 30$/maand",
+    "features": ["Onbeperkte Veilige Ruimte-sessies", "Volledige Coach-modus met vaardigheidstracking", "Dagelijkse check-ins en streak-systeem", "Cumulatief Relationeel Profiel", "Wetenschappelijke Gottman-methodologie", "17 talen"],
+    "button": "Begin voor 15$/maand", "loading": "Betaling openen...", "secure": "Veilige betaling via Paddle · Op elk moment opzeggen", "back": "Terug naar dashboard"
+  },
+  "chat": { "back": "Terug", "emptyState": "Begin gewoon te praten — Zerova luistert", "placeholder": "Wat houdt u bezig?", "inputHint": "Enter om te verzenden · Shift+Enter voor nieuwe regel", "modeSafeSpace": "Veilige Ruimte", "modeCoach": "Coach", "modeCheckin": "Check-in" }
 }

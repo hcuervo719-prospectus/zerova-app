@@ -1,43 +1,42 @@
 {
-  "common": {
-    "siteName": "Zerova"
-  },
-  "nav": {
-    "login": "Giriş Yap",
-    "signup": "Ücretsiz Başla"
-  },
+  "common": { "siteName": "Zerova" },
+  "nav": { "login": "Giriş Yap", "signup": "Ücretsiz Başla" },
   "hero": {
     "badge": "Gottman Bilimine Dayalı",
-    "headline": "Gerçekten işe yarayan",
-    "headlineAccent": "bir ilişki kur.",
-    "subheadline": "Zerova, kişisel İlişkisel Zeka asistanınızdır — 40 yıllık bilime dayalı, sizin özel dinamiğinize göre eğitilmiş.",
+    "headline": "Saat 23:00. Az önce tartıştınız.",
+    "headlineAccent": "Terapistinizle bir sonraki randevunuz: Perşembe.",
+    "headlineLine3": "Zerova şimdi burada.",
+    "subheadline": "Yapay zeka ilişki asistanı, 24/7 mevcut. 40 yıllık Gottman bilimine dayalı.",
     "cardDesc": "İlişkisel rehberiniz, her zaman mevcut.",
-    "cta": "Ücretsiz denemeyi başlat",
+    "cta": "7 Gün Ücretsiz Dene",
     "ctaSecondary": "Nasıl çalışır",
-    "trial": "7 gün ücretsiz · Kredi kartı gerekmez"
+    "trial": "7 gün ücretsiz · Sonra 30$/ay",
+    "trialNote": "Kredi kartı gerekmez · İstediğinizde iptal edin",
+    "available": "24/7 Mevcut"
   },
   "modes": {
     "title": "Üç mod. Bir asistan.",
     "subtitle": "Zerova neye ihtiyacınız olduğunu algılar — ya da siz seçebilirsiniz.",
-    "safeSpace": {
-      "title": "Güvenli Alan",
-      "desc": "Herhangi bir rehberlik sunulmadan önce gerçekten duyulduğunuzu hissetmeniz için tasarlanmış bir alanda zor duyguları ve çatışmaları işleyin."
-    },
-    "coach": {
-      "title": "Koç",
-      "desc": "Gerçek durumlarınızı kullanarak belirli Gottman becerilerini öğrenin ve pratik yapın — Nazik Başlangıç, sorumluluk kabul etme, yönelme."
-    },
-    "checkin": {
-      "title": "Günlük Check-in",
-      "desc": "İlişkinizin iki dakikalık nabzı. Zamanla dinamiğinizin boylamsal bir resmini oluşturur."
-    }
+    "safeSpace": { "title": "Güvenli Alan", "desc": "Herhangi bir rehberlik sunulmadan önce gerçekten duyulduğunuzu hissetmeniz için tasarlanmış bir alanda zor duyguları ve çatışmaları işleyin." },
+    "coach": { "title": "Koç", "desc": "Gerçek durumlarınızı kullanarak belirli Gottman becerilerini öğrenin ve pratik yapın — Nazik Başlangıç, sorumluluk kabul etme, yönelme." },
+    "checkin": { "title": "Günlük Check-in", "desc": "İlişkinizin iki dakikalık nabzı. Zamanla dinamiğinizin boylamsal bir resmini oluşturur." }
   },
   "science": {
     "title": "Görüş değil. Bilim.",
     "subtitle": "Her müdahale, hakemli ilişki araştırmalarına dayanmaktadır.",
     "stat1": "çiftler tutarlı Gottman pratiğiyle daha güçlü ilişkiler bildiriyor",
     "stat2": "yıllık hakemli araştırma metodolojinin arkasında",
-    "stat3": "bilimsel çerçeve: Gottman Yöntemi, EFT, CBCT"
+    "stat3": "bilimsel çerçeve: Gottman Yöntemi, EFT, CBCT",
+    "quote": "Gottman ilkelerini öğrenen ve uygulayan çiftler, ilişki memnuniyeti, iletişim ve çatışma çözümünde ölçülebilir iyileşmeler bildiriyor.",
+    "quoteSource": "— The Gottman Institute, 40 yıllık araştırmaya dayanarak"
+  },
+  "urgency": {
+    "title": "Beklemenin maliyeti",
+    "stat1": "yıl bekliyor ortalama bir çift yardım aramadan önce",
+    "stat2": "sonunda yardım aradıklarında zaten boşanmaya karar vermiş",
+    "stat3": "Zerova terapistiniz olmadığında mevcut",
+    "message": "Çözülmemiş çatışmanın her ayı kalıpları değiştirmeyi zorlaştırır. Çok geç olana kadar beklemeyin.",
+    "cta": "Şimdi Başla — 7 Gün Ücretsiz"
   },
   "cta": {
     "title": "İlişkiniz bunu hak ediyor.",
@@ -45,116 +44,26 @@
     "button": "Ücretsiz denemeyi başlat",
     "trial": "7 gün ücretsiz · Sonra 30$/ay · İstediğiniz zaman iptal edin"
   },
-  "footer": {
-    "copyright": "© 2026 Zerova / VividShift. Tüm hakları saklıdır."
-  },
+  "footer": { "copyright": "© 2026 Zerova / VividShift. Tüm hakları saklıdır." },
   "signup": {
-    "subtitle": "Hesabınızı oluşturun",
-    "name": "Ad",
-    "email": "E-posta",
-    "password": "Şifre",
-    "button": "Hesap oluştur",
-    "loading": "Hesap oluşturuluyor...",
-    "hasAccount": "Zaten bir hesabınız var mı?",
-    "login": "Giriş yap",
-    "trial": "7 günlük deneme dahil · Kredi kartı gerekmez",
-    "emailConfirmTitle": "E-postanızı kontrol edin",
-    "emailConfirmDesc": "Şu adrese bir onay bağlantısı gönderdik:",
-    "emailConfirmNote": "Hesabınızı etkinleştirmek için e-postadaki bağlantıya tıklayın."
+    "subtitle": "Hesabınızı oluşturun", "name": "Ad", "email": "E-posta", "password": "Şifre", "button": "Hesap oluştur", "loading": "Hesap oluşturuluyor...", "hasAccount": "Zaten bir hesabınız var mı?", "login": "Giriş yap", "trial": "7 günlük deneme dahil · Kredi kartı gerekmez",
+    "emailConfirmTitle": "E-postanızı kontrol edin", "emailConfirmDesc": "Şu adrese bir onay bağlantısı gönderdik:", "emailConfirmNote": "Hesabınızı etkinleştirmek için e-postadaki bağlantıya tıklayın."
   },
-  "login": {
-    "subtitle": "Tekrar hoş geldiniz",
-    "email": "E-posta",
-    "password": "Şifre",
-    "button": "Giriş yap",
-    "loading": "Giriş yapılıyor...",
-    "noAccount": "Hesabınız yok mu?",
-    "signup": "Ücretsiz denemeyi başlat"
-  },
+  "login": { "subtitle": "Tekrar hoş geldiniz", "email": "E-posta", "password": "Şifre", "button": "Giriş yap", "loading": "Giriş yapılıyor...", "noAccount": "Hesabınız yok mu?", "signup": "Ücretsiz denemeyi başlat" },
   "onboarding": {
-    "subtitle": "Deneyiminizi kişiselleştirmemize yardımcı olun",
-    "continue": "Devam →",
-    "step1": {
-      "title": "Zerova'yı nasıl kullanacaksınız?",
-      "desc": "Bu, asistanın size nasıl yanıt vereceğini belirler.",
-      "solo": "Kendi başıma",
-      "soloDesc": "Kendim ve ilişkisel becerilerim üzerinde çalışmak istiyorum",
-      "couple": "Çift olarak",
-      "coupleDesc": "Partnerim ve ben birlikte kullanacağız"
-    },
-    "step2": {
-      "title": "Ne zamandır birliktesiniz?",
-      "opt1": "1 yıldan az",
-      "opt2": "1–3 yıl",
-      "opt3": "3–7 yıl",
-      "opt4": "7–15 yıl",
-      "opt5": "15+ yıl",
-      "opt6": "Henüz bir ilişkim yok"
-    },
-    "step3": {
-      "title": "Şu an işleri nasıl tanımlarsınız?",
-      "stable": "🌱 Stabil",
-      "stableDesc": "İşler çoğunlukla iyi — büyümeye devam etmek istiyorum",
-      "tension": "⚡ Biraz gerginlik",
-      "tensionDesc": "Tekrarlayan sürtüşmelerimiz var ama idare ediyoruz",
-      "crisis": "🌊 Krizde",
-      "crisisDesc": "İşler zor ve gerçek yardıma ihtiyacımız var"
-    },
-    "step4": {
-      "title": "Üzerinde çalışmak istediğiniz ana alan nedir?",
-      "desc": "Şu an en alakalı hissettireni seçin.",
-      "opt1": "İletişim",
-      "opt2": "Güven",
-      "opt3": "Yakınlık",
-      "opt4": "Finanslar",
-      "opt5": "Ebeveynlik",
-      "opt6": "Birlikte zaman",
-      "opt7": "Geniş aile",
-      "opt8": "Yaşam hedefleri",
-      "button": "Yolculuğumu başlat →",
-      "loading": "Ayarlanıyor..."
-    }
+    "subtitle": "Deneyiminizi kişiselleştirmemize yardımcı olun", "continue": "Devam →",
+    "step1": { "title": "Zerova'yı nasıl kullanacaksınız?", "desc": "Bu, asistanın size nasıl yanıt vereceğini belirler.", "solo": "Kendi başıma", "soloDesc": "Kendim ve ilişkisel becerilerim üzerinde çalışmak istiyorum", "couple": "Çift olarak", "coupleDesc": "Partnerim ve ben birlikte kullanacağız" },
+    "step2": { "title": "Ne zamandır birliktesiniz?", "opt1": "1 yıldan az", "opt2": "1–3 yıl", "opt3": "3–7 yıl", "opt4": "7–15 yıl", "opt5": "15+ yıl", "opt6": "Henüz bir ilişkim yok" },
+    "step3": { "title": "Şu an işleri nasıl tanımlarsınız?", "stable": "🌱 Stabil", "stableDesc": "İşler çoğunlukla iyi — büyümeye devam etmek istiyorum", "tension": "⚡ Biraz gerginlik", "tensionDesc": "Tekrarlayan sürtüşmelerimiz var ama idare ediyoruz", "crisis": "🌊 Krizde", "crisisDesc": "İşler zor ve gerçek yardıma ihtiyacımız var" },
+    "step4": { "title": "Üzerinde çalışmak istediğiniz ana alan nedir?", "desc": "Şu an en alakalı hissettireni seçin.", "opt1": "İletişim", "opt2": "Güven", "opt3": "Yakınlık", "opt4": "Finanslar", "opt5": "Ebeveynlik", "opt6": "Birlikte zaman", "opt7": "Geniş aile", "opt8": "Yaşam hedefleri", "button": "Yolculuğumu başlat →", "loading": "Ayarlanıyor..." }
   },
   "dashboard": {
-    "defaultName": "orada",
-    "signout": "Çıkış yap",
-    "trialDays": "gün",
-    "trialLeft": "ücretsiz denemenizde kaldı",
-    "subscribe": "Abone ol",
-    "trialExpiredTitle": "Denemeniz sona erdi",
-    "trialExpiredDesc": "İlişkisel yolculuğunuza devam etmek için abone olun.",
-    "subscribeButton": "30$/ay için abone ol",
-    "welcome": "Tekrar hoş geldiniz, {name}",
-    "subtitle": "Bugün ikiniz arasındaki işler nasıl?",
-    "streak": "Ardışık günler",
-    "sessions": "Oturumlar",
-    "checkins": "Check-in'ler",
-    "talkTitle": "Zerova ile konuş",
-    "talkDesc": "Sadece konuşmaya başlayın — Zerova neye ihtiyacınız olduğunu algılar",
-    "modeSafeSpace": "Güvenli Alan",
-    "modeSafeSpaceDesc": "Zor bir anı işle",
-    "modeCoach": "Koç",
-    "modeCoachDesc": "Belirli bir beceri öğren",
-    "modeCheckin": "Check-in",
-    "modeCheckinDesc": "Hızlı günlük nabız"
+    "defaultName": "orada", "signout": "Çıkış yap", "trialDays": "gün", "trialLeft": "ücretsiz denemenizde kaldı", "subscribe": "Abone ol", "trialExpiredTitle": "Denemeniz sona erdi", "trialExpiredDesc": "İlişkisel yolculuğunuza devam etmek için abone olun.", "subscribeButton": "30$/ay için abone ol", "welcome": "Tekrar hoş geldiniz, {name}", "subtitle": "Bugün ikiniz arasındaki işler nasıl?", "streak": "Ardışık günler", "sessions": "Oturumlar", "checkins": "Check-in'ler", "talkTitle": "Zerova ile konuş", "talkDesc": "Sadece konuşmaya başlayın — Zerova neye ihtiyacınız olduğunu algılar", "modeSafeSpace": "Güvenli Alan", "modeSafeSpaceDesc": "Zor bir anı işle", "modeCoach": "Koç", "modeCoachDesc": "Belirli bir beceri öğren", "modeCheckin": "Check-in", "modeCheckinDesc": "Hızlı günlük nabız"
   },
   "subscribe": {
-    "title": "Yolculuğunuza devam edin",
-    "subtitle": "Denemeniz sona erdi. Devam etmek için abone olun.",
-    "badge": "Lansman teklifi",
-    "perMonth": "aylık",
-    "offerNote": "İlk 3 ay 15$/ay, sonra 30$/ay",
-    "features": [
-      "Sınırsız Güvenli Alan oturumları",
-      "Beceri takibi ile tam Koç modu",
-      "Günlük check-in'ler ve seri sistemi",
-      "Kümülatif İlişkisel Profil",
-      "Bilimsel Gottman metodolojisi",
-      "17 dil"
-    ],
-    "button": "15$/ay ile başla",
-    "loading": "Ödeme açılıyor...",
-    "secure": "Paddle aracılığıyla güvenli ödeme · İstediğiniz zaman iptal edin",
-    "back": "Panele dön"
-  }
+    "title": "Yolculuğunuza devam edin", "subtitle": "Denemeniz sona erdi. Devam etmek için abone olun.", "badge": "Lansman teklifi", "perMonth": "aylık", "offerNote": "İlk 3 ay 15$/ay, sonra 30$/ay",
+    "features": ["Sınırsız Güvenli Alan oturumları", "Beceri takibi ile tam Koç modu", "Günlük check-in'ler ve seri sistemi", "Kümülatif İlişkisel Profil", "Bilimsel Gottman metodolojisi", "17 dil"],
+    "button": "15$/ay ile başla", "loading": "Ödeme açılıyor...", "secure": "Paddle aracılığıyla güvenli ödeme · İstediğiniz zaman iptal edin", "back": "Panele dön"
+  },
+  "chat": { "back": "Geri", "emptyState": "Konuşmaya başlayın — Zerova dinliyor", "placeholder": "Aklınızda ne var?", "inputHint": "Göndermek için Enter · Yeni satır için Shift+Enter", "modeSafeSpace": "Güvenli Alan", "modeCoach": "Koç", "modeCheckin": "Check-in" }
 }

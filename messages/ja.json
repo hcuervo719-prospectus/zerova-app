@@ -1,43 +1,42 @@
 {
-  "common": {
-    "siteName": "Zerova"
-  },
-  "nav": {
-    "login": "ログイン",
-    "signup": "無料で始める"
-  },
+  "common": { "siteName": "Zerova" },
+  "nav": { "login": "ログイン", "signup": "無料で始める" },
   "hero": {
     "badge": "ゴットマン科学に基づく",
-    "headline": "本当に機能する",
-    "headlineAccent": "関係を築こう。",
-    "subheadline": "Zerovaはあなたの個人的な関係知性アシスタントです — 40年の科学に基づき、あなた特有のダイナミクスに合わせて訓練されています。",
+    "headline": "夜11時。ちょうど喧嘩しました。",
+    "headlineAccent": "セラピストの次の予約：木曜日。",
+    "headlineLine3": "Zerovaが今ここにいます。",
+    "subheadline": "AI関係アシスタント、24/7利用可能。40年のゴットマン科学に基づく。",
     "cardDesc": "あなたの関係ガイド、いつでも利用可能。",
-    "cta": "無料トライアルを開始",
+    "cta": "7日間無料で試す",
     "ctaSecondary": "使い方を見る",
-    "trial": "7日間無料 · クレジットカード不要"
+    "trial": "7日間無料 · その後$30/月",
+    "trialNote": "クレジットカード不要 · いつでもキャンセル可能",
+    "available": "24/7利用可能"
   },
   "modes": {
     "title": "3つのモード。1つのアシスタント。",
     "subtitle": "Zerovaが必要なものを検出します — または自分で選択できます。",
-    "safeSpace": {
-      "title": "セーフスペース",
-      "desc": "アドバイスを提供する前に、本当に聞いてもらえると感じられるよう設計された空間で、難しい感情や葛藤を処理します。"
-    },
-    "coach": {
-      "title": "コーチ",
-      "desc": "実際の状況を使って、特定のゴットマンスキルを学び練習します — 穏やかなスタート、責任の受け入れ、相手に向き合うこと。"
-    },
-    "checkin": {
-      "title": "デイリーチェックイン",
-      "desc": "2分間の関係の状態確認。時間をかけてあなたのダイナミクスの縦断的な画像を構築します。"
-    }
+    "safeSpace": { "title": "セーフスペース", "desc": "アドバイスを提供する前に、本当に聞いてもらえると感じられるよう設計された空間で、難しい感情や葛藤を処理します。" },
+    "coach": { "title": "コーチ", "desc": "実際の状況を使って、特定のゴットマンスキルを学び練習します — 穏やかなスタート、責任の受け入れ、相手に向き合うこと。" },
+    "checkin": { "title": "デイリーチェックイン", "desc": "2分間の関係の状態確認。時間をかけてあなたのダイナミクスの縦断的な画像を構築します。" }
   },
   "science": {
     "title": "意見ではない。科学です。",
     "subtitle": "すべての介入は、査読済みの関係研究に基づいています。",
     "stat1": "のカップルが一貫したゴットマン実践でより強い関係を報告",
     "stat2": "年の査読済み研究が方法論を支える",
-    "stat3": "科学的フレームワーク：ゴットマン法、EFT、CBCT"
+    "stat3": "科学的フレームワーク：ゴットマン法、EFT、CBCT",
+    "quote": "ゴットマンの原則を学び実践するカップルは、関係満足度、コミュニケーション、紛争解決において測定可能な改善を報告しています。",
+    "quoteSource": "— ゴットマン研究所、40年の研究に基づく"
+  },
+  "urgency": {
+    "title": "待つことのコスト",
+    "stat1": "年、平均的なカップルが助けを求めるまで待つ",
+    "stat2": "がついに助けを求めた時にはすでに離婚を決意している",
+    "stat3": "Zerovaはセラピストが不在の時に利用可能",
+    "message": "未解決の葛藤の毎月がパターンをより変えにくくします。手遅れになる前に待たないでください。",
+    "cta": "今すぐ始める — 7日間無料"
   },
   "cta": {
     "title": "あなたの関係はこれに値します。",
@@ -45,116 +44,26 @@
     "button": "無料トライアルを開始",
     "trial": "7日間無料 · その後$30/月 · いつでもキャンセル可能"
   },
-  "footer": {
-    "copyright": "© 2026 Zerova / VividShift. 全著作権所有。"
-  },
+  "footer": { "copyright": "© 2026 Zerova / VividShift. 全著作権所有。" },
   "signup": {
-    "subtitle": "アカウントを作成",
-    "name": "名前",
-    "email": "メール",
-    "password": "パスワード",
-    "button": "アカウント作成",
-    "loading": "アカウント作成中...",
-    "hasAccount": "すでにアカウントをお持ちですか？",
-    "login": "ログイン",
-    "trial": "7日間のトライアル付き · クレジットカード不要",
-    "emailConfirmTitle": "メールを確認してください",
-    "emailConfirmDesc": "確認リンクを送信しました：",
-    "emailConfirmNote": "メール内のリンクをクリックしてアカウントを有効化してください。"
+    "subtitle": "アカウントを作成", "name": "名前", "email": "メール", "password": "パスワード", "button": "アカウント作成", "loading": "アカウント作成中...", "hasAccount": "すでにアカウントをお持ちですか？", "login": "ログイン", "trial": "7日間のトライアル付き · クレジットカード不要",
+    "emailConfirmTitle": "メールを確認してください", "emailConfirmDesc": "確認リンクを送信しました：", "emailConfirmNote": "メール内のリンクをクリックしてアカウントを有効化してください。"
   },
-  "login": {
-    "subtitle": "おかえりなさい",
-    "email": "メール",
-    "password": "パスワード",
-    "button": "ログイン",
-    "loading": "ログイン中...",
-    "noAccount": "アカウントをお持ちでないですか？",
-    "signup": "無料トライアルを開始"
-  },
+  "login": { "subtitle": "おかえりなさい", "email": "メール", "password": "パスワード", "button": "ログイン", "loading": "ログイン中...", "noAccount": "アカウントをお持ちでないですか？", "signup": "無料トライアルを開始" },
   "onboarding": {
-    "subtitle": "あなたの体験をカスタマイズするためにご協力ください",
-    "continue": "続ける →",
-    "step1": {
-      "title": "Zerovaをどのように使いますか？",
-      "desc": "これによりアシスタントの応答方法が決まります。",
-      "solo": "一人で",
-      "soloDesc": "自分自身と関係スキルに取り組みたい",
-      "couple": "カップルとして",
-      "coupleDesc": "パートナーと一緒に使います"
-    },
-    "step2": {
-      "title": "どのくらい一緒にいますか？",
-      "opt1": "1年未満",
-      "opt2": "1〜3年",
-      "opt3": "3〜7年",
-      "opt4": "7〜15年",
-      "opt5": "15年以上",
-      "opt6": "まだ関係にない"
-    },
-    "step3": {
-      "title": "今の状況をどう説明しますか？",
-      "stable": "🌱 安定",
-      "stableDesc": "ほとんど良好です — 成長し続けたい",
-      "tension": "⚡ 少し緊張",
-      "tensionDesc": "繰り返す摩擦があるが何とかやっている",
-      "crisis": "🌊 危機中",
-      "crisisDesc": "状況が難しく、本当の助けが必要"
-    },
-    "step4": {
-      "title": "取り組みたい主な分野は何ですか？",
-      "desc": "今最も関連性が高いと感じるものを選んでください。",
-      "opt1": "コミュニケーション",
-      "opt2": "信頼",
-      "opt3": "親密さ",
-      "opt4": "財務",
-      "opt5": "子育て",
-      "opt6": "一緒の時間",
-      "opt7": "大家族",
-      "opt8": "人生の目標",
-      "button": "旅を始める →",
-      "loading": "設定中..."
-    }
+    "subtitle": "あなたの体験をカスタマイズするためにご協力ください", "continue": "続ける →",
+    "step1": { "title": "Zerovaをどのように使いますか？", "desc": "これによりアシスタントの応答方法が決まります。", "solo": "一人で", "soloDesc": "自分自身と関係スキルに取り組みたい", "couple": "カップルとして", "coupleDesc": "パートナーと一緒に使います" },
+    "step2": { "title": "どのくらい一緒にいますか？", "opt1": "1年未満", "opt2": "1〜3年", "opt3": "3〜7年", "opt4": "7〜15年", "opt5": "15年以上", "opt6": "まだ関係にない" },
+    "step3": { "title": "今の状況をどう説明しますか？", "stable": "🌱 安定", "stableDesc": "ほとんど良好です — 成長し続けたい", "tension": "⚡ 少し緊張", "tensionDesc": "繰り返す摩擦があるが何とかやっている", "crisis": "🌊 危機中", "crisisDesc": "状況が難しく、本当の助けが必要" },
+    "step4": { "title": "取り組みたい主な分野は何ですか？", "desc": "今最も関連性が高いと感じるものを選んでください。", "opt1": "コミュニケーション", "opt2": "信頼", "opt3": "親密さ", "opt4": "財務", "opt5": "子育て", "opt6": "一緒の時間", "opt7": "大家族", "opt8": "人生の目標", "button": "旅を始める →", "loading": "設定中..." }
   },
   "dashboard": {
-    "defaultName": "そこ",
-    "signout": "ログアウト",
-    "trialDays": "日",
-    "trialLeft": "無料トライアルの残り",
-    "subscribe": "登録する",
-    "trialExpiredTitle": "トライアルが終了しました",
-    "trialExpiredDesc": "関係の旅を続けるために登録してください。",
-    "subscribeButton": "$30/月で登録",
-    "welcome": "おかえりなさい、{name}",
-    "subtitle": "今日、二人の間はいかがですか？",
-    "streak": "連続日数",
-    "sessions": "セッション",
-    "checkins": "チェックイン",
-    "talkTitle": "Zerovaと話す",
-    "talkDesc": "話し始めるだけで — Zerovaが必要なものを検出します",
-    "modeSafeSpace": "セーフスペース",
-    "modeSafeSpaceDesc": "難しい瞬間を処理する",
-    "modeCoach": "コーチ",
-    "modeCoachDesc": "特定のスキルを学ぶ",
-    "modeCheckin": "チェックイン",
-    "modeCheckinDesc": "クイック毎日パルス"
+    "defaultName": "そこ", "signout": "ログアウト", "trialDays": "日", "trialLeft": "無料トライアルの残り", "subscribe": "登録する", "trialExpiredTitle": "トライアルが終了しました", "trialExpiredDesc": "関係の旅を続けるために登録してください。", "subscribeButton": "$30/月で登録", "welcome": "おかえりなさい、{name}", "subtitle": "今日、二人の間はいかがですか？", "streak": "連続日数", "sessions": "セッション", "checkins": "チェックイン", "talkTitle": "Zerovaと話す", "talkDesc": "話し始めるだけで — Zerovaが必要なものを検出します", "modeSafeSpace": "セーフスペース", "modeSafeSpaceDesc": "難しい瞬間を処理する", "modeCoach": "コーチ", "modeCoachDesc": "特定のスキルを学ぶ", "modeCheckin": "チェックイン", "modeCheckinDesc": "クイック毎日パルス"
   },
   "subscribe": {
-    "title": "旅を続けましょう",
-    "subtitle": "トライアルが終了しました。構築を続けるために登録してください。",
-    "badge": "ローンチオファー",
-    "perMonth": "月",
-    "offerNote": "最初の3ヶ月は$15/月、その後$30/月",
-    "features": [
-      "無制限のセーフスペースセッション",
-      "スキル追跡付きフルコーチモード",
-      "毎日のチェックインとストリークシステム",
-      "累積関係プロファイル",
-      "科学的ゴットマン方法論",
-      "17言語"
-    ],
-    "button": "$15/月で始める",
-    "loading": "支払いを開いています...",
-    "secure": "Paddle経由の安全な支払い · いつでもキャンセル可能",
-    "back": "ダッシュボードに戻る"
-  }
+    "title": "旅を続けましょう", "subtitle": "トライアルが終了しました。構築を続けるために登録してください。", "badge": "ローンチオファー", "perMonth": "月", "offerNote": "最初の3ヶ月は$15/月、その後$30/月",
+    "features": ["無制限のセーフスペースセッション", "スキル追跡付きフルコーチモード", "毎日のチェックインとストリークシステム", "累積関係プロファイル", "科学的ゴットマン方法論", "17言語"],
+    "button": "$15/月で始める", "loading": "支払いを開いています...", "secure": "Paddle経由の安全な支払い · いつでもキャンセル可能", "back": "ダッシュボードに戻る"
+  },
+  "chat": { "back": "戻る", "emptyState": "話し始めるだけで — Zerovaが聞いています", "placeholder": "何を考えていますか？", "inputHint": "Enterで送信 · Shift+Enterで改行", "modeSafeSpace": "セーフスペース", "modeCoach": "コーチ", "modeCheckin": "チェックイン" }
 }
