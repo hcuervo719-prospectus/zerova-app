@@ -1,43 +1,42 @@
 {
-  "common": {
-    "siteName": "Zerova"
-  },
-  "nav": {
-    "login": "Log In",
-    "signup": "Start Free Trial"
-  },
+  "common": { "siteName": "Zerova" },
+  "nav": { "login": "Log In", "signup": "Start Free Trial" },
   "hero": {
     "badge": "Powered by Gottman Science",
-    "headline": "Build a relationship that",
-    "headlineAccent": "actually works.",
-    "subheadline": "Zerova is your personal Relational Intelligence assistant — grounded in 40 years of science, trained on your specific dynamic.",
+    "headline": "It's 11pm. You just had a fight.",
+    "headlineAccent": "Your next therapy appointment: Thursday.",
+    "headlineLine3": "Zerova is here now.",
+    "subheadline": "AI relationship assistant, available 24/7. Based on 40 years of Gottman science.",
     "cardDesc": "Your relational guide, always available.",
-    "cta": "Start Free Trial",
+    "cta": "Try Free for 7 Days",
     "ctaSecondary": "See how it works",
-    "trial": "7-day free trial · No credit card required"
+    "trial": "7 days free · Then $30/month",
+    "trialNote": "No credit card required · Cancel anytime",
+    "available": "Available 24/7"
   },
   "modes": {
     "title": "Three modes. One assistant.",
     "subtitle": "Zerova detects what you need — or you can choose.",
-    "safeSpace": {
-      "title": "Safe Space",
-      "desc": "Process difficult emotions and conflicts in a space designed to make you feel genuinely heard before offering any guidance."
-    },
-    "coach": {
-      "title": "Coach",
-      "desc": "Learn and practice specific Gottman skills — Gentle Start-Up, accepting responsibility, turning toward — using your real situations."
-    },
-    "checkin": {
-      "title": "Daily Check-in",
-      "desc": "A two-minute pulse on your relationship. Builds a longitudinal picture of your dynamic over time."
-    }
+    "safeSpace": { "title": "Safe Space", "desc": "Process difficult emotions and conflicts in a space designed to make you feel genuinely heard before offering any guidance." },
+    "coach": { "title": "Coach", "desc": "Learn and practice specific Gottman skills — Gentle Start-Up, accepting responsibility, turning toward — using your real situations." },
+    "checkin": { "title": "Daily Check-in", "desc": "A two-minute pulse on your relationship. Builds a longitudinal picture of your dynamic over time." }
   },
   "science": {
     "title": "Not opinions. Science.",
     "subtitle": "Every intervention is grounded in peer-reviewed relationship research.",
     "stat1": "of couples report stronger relationships after consistent Gottman practice",
     "stat2": "years of peer-reviewed research behind the methodology",
-    "stat3": "scientific frameworks: Gottman Method, EFT, CBCT"
+    "stat3": "scientific frameworks: Gottman Method, EFT, CBCT",
+    "quote": "Couples who learn and apply Gottman principles report measurable improvements in relationship satisfaction, communication, and conflict resolution.",
+    "quoteSource": "— The Gottman Institute, based on 40 years of research"
+  },
+  "urgency": {
+    "title": "The cost of waiting",
+    "stat1": "years the average couple waits before seeking help",
+    "stat2": "have already decided to divorce by the time they seek help",
+    "stat3": "Zerova is available when your therapist isn't",
+    "message": "Every month of unresolved conflict makes the patterns harder to change. Don't wait until it's too late.",
+    "cta": "Start Now — Free for 7 Days"
   },
   "cta": {
     "title": "Your relationship deserves this.",
@@ -45,9 +44,7 @@
     "button": "Start Free Trial",
     "trial": "7 days free · Then $30/month · Cancel anytime"
   },
-  "footer": {
-    "copyright": "© 2026 Zerova / VividShift. All rights reserved."
-  },
+  "footer": { "copyright": "© 2026 Zerova / VividShift. All rights reserved." },
   "signup": {
     "subtitle": "Create your account",
     "name": "First name",
@@ -74,96 +71,18 @@
   "onboarding": {
     "subtitle": "Help us personalize your experience",
     "continue": "Continue →",
-    "step1": {
-      "title": "How will you use Zerova?",
-      "desc": "This shapes how the assistant responds to you.",
-      "solo": "On my own",
-      "soloDesc": "I want to work on myself and my relationship skills",
-      "couple": "As a couple",
-      "coupleDesc": "My partner and I will use it together"
-    },
-    "step2": {
-      "title": "How long have you been together?",
-      "opt1": "Less than 1 year",
-      "opt2": "1–3 years",
-      "opt3": "3–7 years",
-      "opt4": "7–15 years",
-      "opt5": "15+ years",
-      "opt6": "Not in a relationship yet"
-    },
-    "step3": {
-      "title": "How would you describe things right now?",
-      "stable": "🌱 Stable",
-      "stableDesc": "Things are mostly good — I want to keep growing",
-      "tension": "⚡ Some tension",
-      "tensionDesc": "We have recurring friction but we're managing",
-      "crisis": "🌊 In crisis",
-      "crisisDesc": "Things are difficult and we need real help"
-    },
-    "step4": {
-      "title": "What's the main area you want to work on?",
-      "desc": "Choose the one that feels most relevant right now.",
-      "opt1": "Communication",
-      "opt2": "Trust",
-      "opt3": "Intimacy",
-      "opt4": "Finances",
-      "opt5": "Parenting",
-      "opt6": "Time together",
-      "opt7": "Extended family",
-      "opt8": "Life goals",
-      "button": "Start my journey →",
-      "loading": "Setting up..."
-    }
+    "step1": { "title": "How will you use Zerova?", "desc": "This shapes how the assistant responds to you.", "solo": "On my own", "soloDesc": "I want to work on myself and my relationship skills", "couple": "As a couple", "coupleDesc": "My partner and I will use it together" },
+    "step2": { "title": "How long have you been together?", "opt1": "Less than 1 year", "opt2": "1–3 years", "opt3": "3–7 years", "opt4": "7–15 years", "opt5": "15+ years", "opt6": "Not in a relationship yet" },
+    "step3": { "title": "How would you describe things right now?", "stable": "🌱 Stable", "stableDesc": "Things are mostly good — I want to keep growing", "tension": "⚡ Some tension", "tensionDesc": "We have recurring friction but we're managing", "crisis": "🌊 In crisis", "crisisDesc": "Things are difficult and we need real help" },
+    "step4": { "title": "What's the main area you want to work on?", "desc": "Choose the one that feels most relevant right now.", "opt1": "Communication", "opt2": "Trust", "opt3": "Intimacy", "opt4": "Finances", "opt5": "Parenting", "opt6": "Time together", "opt7": "Extended family", "opt8": "Life goals", "button": "Start my journey →", "loading": "Setting up..." }
   },
   "dashboard": {
-    "defaultName": "there",
-    "signout": "Sign out",
-    "trialDays": "days",
-    "trialLeft": "left in your free trial",
-    "subscribe": "Subscribe",
-    "trialExpiredTitle": "Your trial has ended",
-    "trialExpiredDesc": "Subscribe to continue your relational journey.",
-    "subscribeButton": "Subscribe for $30/month",
-    "welcome": "Welcome back, {name}",
-    "subtitle": "How are things between you two today?",
-    "streak": "Day streak",
-    "sessions": "Sessions",
-    "checkins": "Check-ins",
-    "talkTitle": "Talk to Zerova",
-    "talkDesc": "Just start talking — Zerova detects what you need",
-    "modeSafeSpace": "Safe Space",
-    "modeSafeSpaceDesc": "Process a difficult moment",
-    "modeCoach": "Coach",
-    "modeCoachDesc": "Learn a specific skill",
-    "modeCheckin": "Check-in",
-    "modeCheckinDesc": "Quick daily pulse"
+    "defaultName": "there", "signout": "Sign out", "trialDays": "days", "trialLeft": "left in your free trial", "subscribe": "Subscribe", "trialExpiredTitle": "Your trial has ended", "trialExpiredDesc": "Subscribe to continue your relational journey.", "subscribeButton": "Subscribe for $30/month", "welcome": "Welcome back, {name}", "subtitle": "How are things between you two today?", "streak": "Day streak", "sessions": "Sessions", "checkins": "Check-ins", "talkTitle": "Talk to Zerova", "talkDesc": "Just start talking — Zerova detects what you need", "modeSafeSpace": "Safe Space", "modeSafeSpaceDesc": "Process a difficult moment", "modeCoach": "Coach", "modeCoachDesc": "Learn a specific skill", "modeCheckin": "Check-in", "modeCheckinDesc": "Quick daily pulse"
   },
   "subscribe": {
-    "title": "Continue your journey",
-    "subtitle": "Your trial has ended. Subscribe to keep building.",
-    "badge": "Launch offer",
-    "perMonth": "per month",
-    "offerNote": "$15/month for the first 3 months, then $30/month",
-    "features": [
-      "Unlimited Safe Space sessions",
-      "Full Coach mode with skill tracking",
-      "Daily check-ins and streak system",
-      "Cumulative Relational Profile",
-      "Science-based Gottman methodology",
-      "16 languages"
-    ],
-    "button": "Start for $15/month",
-    "loading": "Opening checkout...",
-    "secure": "Secure payment via Paddle · Cancel anytime",
-    "back": "Back to dashboard"
+    "title": "Continue your journey", "subtitle": "Your trial has ended. Subscribe to keep building.", "badge": "Launch offer", "perMonth": "per month", "offerNote": "$15/month for the first 3 months, then $30/month",
+    "features": ["Unlimited Safe Space sessions", "Full Coach mode with skill tracking", "Daily check-ins and streak system", "Cumulative Relational Profile", "Science-based Gottman methodology", "17 languages"],
+    "button": "Start for $15/month", "loading": "Opening checkout...", "secure": "Secure payment via Paddle · Cancel anytime", "back": "Back to dashboard"
   },
-  "chat": {
-  "back": "Back",
-  "emptyState": "Just start talking — Zerova is listening",
-  "placeholder": "What's on your mind?",
-  "inputHint": "Enter to send · Shift+Enter for new line",
-  "modeSafeSpace": "Safe Space",
-  "modeCoach": "Coach",
-  "modeCheckin": "Check-in"
-  }
+  "chat": { "back": "Back", "emptyState": "Just start talking — Zerova is listening", "placeholder": "What's on your mind?", "inputHint": "Enter to send · Shift+Enter for new line", "modeSafeSpace": "Safe Space", "modeCoach": "Coach", "modeCheckin": "Check-in" }
 }
