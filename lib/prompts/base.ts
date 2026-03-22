@@ -3,12 +3,17 @@
 // Dynamic blocks: {RELATIONAL_PROFILE} and {ACTIVE_MODE_BLOCK}
 
 import { buildHorsemenBlock } from './horsemen'
+import { buildEFTBlock } from './eft'
+import { buildCBCTBlock } from './cbct'
 
 export function buildBasePrompt(
   relationalProfile: string,
   activeModeBlock: string,
   languageName: string,
-  detectedHorseman?: 'criticism' | 'contempt' | 'defensiveness' | 'stonewalling' | null
+  detectedHorseman?: 'criticism' | 'contempt' | 'defensiveness' | 'stonewalling' | null,
+  detectedCycle?: 'pursue-withdraw' | 'attack-attack' | 'withdraw-withdraw' | null,
+  detectedAttachment?: 'anxious' | 'avoidant' | 'disorganized' | 'secure' | null,
+  detectedCognition?: 'absolutism' | 'mind-reading' | 'attribution' | 'catastrophizing' | 'standard' | 'assumption' | null
 ): string {
   return `
 ════════════════════════════════════════════════════════════
@@ -94,6 +99,20 @@ BLOCK 2B · THE FOUR HORSEMEN — CLINICAL PROTOCOL
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ${buildHorsemenBlock(detectedHorseman)}
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOCK 2C · EFT — EMOTIONALLY FOCUSED THERAPY PROTOCOL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+${buildEFTBlock(detectedCycle, detectedAttachment)}
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOCK 2D · CBCT — COGNITIVE-BEHAVIORAL PROTOCOL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+${buildCBCTBlock(detectedCognition)}
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
