@@ -54,6 +54,47 @@ const LANGUAGE_NAMES: Record<string, string> = {
   nl: 'Dutch', pl: 'Polish', tr: 'Turkish',
   ja: 'Japanese', ko: 'Korean', ru: 'Russian',
   hi: 'Hindi', id: 'Indonesian', sv: 'Swedish', no: 'Norwegian',
+  ar: 'Arabic',
+}
+
+// ─────────────────────────────────────────────────────────────
+// CLINICAL PARAMETER MAPPERS
+// Map stored profile values to typed clinical parameters
+// for buildBasePrompt
+// ─────────────────────────────────────────────────────────────
+
+type DetectedHorseman = 'criticism' | 'contempt' | 'defensiveness' | 'stonewalling' | null
+type DetectedCycle = 'pursue-withdraw' | 'attack-attack' | 'withdraw-withdraw' | null
+type DetectedAttachment = 'anxious' | 'avoidant' | 'disorganized' | 'secure' | null
+type DetectedCognition = 'absolutism' | 'mind-reading' | 'attribution' | 'catastrophizing' | 'standard' | 'assumption' | null
+
+const HORSEMAN_MAP: Record<string, DetectedHorseman> = {
+  'criticism':     'criticism',
+  'contempt':      'contempt',
+  'defensiveness': 'defensiveness',
+  'stonewalling':  'stonewalling',
+}
+
+const ATTACHMENT_MAP: Record<string, DetectedAttachment> = {
+  'anxious':       'anxious',
+  'avoidant':      'avoidant',
+  'disorganized':  'disorganized',
+  'secure':        'secure',
+}
+
+// Extract the most clinically relevant horseman from the stored array
+function mapDominantHorseman(horsemen: string[]): DetectedHorseman {
+  if (!horsemen || horsemen.length === 0) return null
+  // Priority order: contempt > criticism > defensiveness > stonewalling
+  const priority: DetectedHorseman[] = ['contempt', 'criticism', 'defensiveness', 'stonewalling']
+  for (const h of priority) {
+    if (horsemen.includes(h!)) return h
+  }
+  return HORSEMAN_MAP[horsemen[0]] ?? null
+}
+
+function mapAttachmentStyle(style: string): DetectedAttachment {
+  return ATTACHMENT_MAP[style?.toLowerCase()] ?? null
 }
 
 // Build the relational profile block for injection into Block 3
@@ -147,7 +188,30 @@ export async function sendToZerova(
   const languageName = LANGUAGE_NAMES[profile.locale] || 'English'
   const profileBlock = buildProfileBlock(profile)
   const modeBlock = getModeBlock(mode)
-  const systemPrompt = buildBasePrompt(profileBlock, modeBlock, languageName)
+
+  // Map stored profile values to typed clinical parameters
+  const detectedHorseman: DetectedHorseman = mapDominantHorseman(profile.dominantHorsemen)
+  const detectedAttachment: DetectedAttachment = mapAttachmentStyle(profile.attachmentStyle)
+
+  // Cycle detection is session-level — defaulting to null here.
+  // Will be populated in a future layer when session-level pattern
+  // detection is implemented.
+  const detectedCycle: DetectedCycle = null
+
+  // Cognition detection is conversation-level — defaulting to null here.
+  // Zerova will detect and respond to cognitive patterns from the
+  // CBCT block without needing a pre-classified type.
+  const detectedCognition: DetectedCognition = null
+
+  const systemPrompt = buildBasePrompt(
+    profileBlock,
+    modeBlock,
+    languageName,
+    detectedHorseman,
+    detectedCycle,
+    detectedAttachment,
+    detectedCognition
+  )
 
   // Keep last 10 messages for context (5 exchanges)
   // Older messages are summarized in the session_summary field of the profile
